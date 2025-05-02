@@ -81,6 +81,10 @@ share, please submit a pull request.
 Themes are collections of styles that can be imported into the Windows 11
 Notification Center Styler mod. The following themes are available:
 
+| Link | Screenshot
+| ---- | ----------
+| [Minimal Explorer11](Themes/MinimalExplorer11/README.md) | [![Minimal Explorer11](Themes/MinimalExplorer11/screenshot-small.png)](Themes/MinimalExplorer11/screenshot.png)
+
 ## Explorer frame container height
 
 The height of the explorer frame container which includes the tabs, the address bar, and the command bar, set to zero to use the default height.

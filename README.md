@@ -89,7 +89,7 @@ File Explorer Styler mod. The following themes are available:
 
 | Link | Screenshot
 | ---- | ----------
-| [Minimal Explorer11](Themes/MinimalExplorer11/README.md) | [![Minimal Explorer11](Themes/MinimalExplorer11/screenshot-small.png)](Themes/MinimalExplorer11/screenshot.png)
+| [Minimal Explorer11](Themes/Minimal%20Explorer11/README.md) | [![Minimal Explorer11](Themes/Minimal%20Explorer11/screenshot-small.png)](Themes/Minimal%20Explorer11/screenshot.png)
 
 ## Explorer frame container height
 

@@ -1,4 +1,4 @@
-# Minimal explorer theme for Windows 11 File Explorer Styler
+# Minimal Explorer11 theme for Windows 11 File Explorer Styler
 
 A minimalistic theme for windows 11 file explorer styler mod.
 

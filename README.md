@@ -33,7 +33,7 @@
   * [Rotate](#rotate)
   * [Scale](#scale)
   * [Skew](#skew)
-  * [Other Properties](#other-properties)
+  * [Other properties](#other-properties)
 * [Colors](#colors)
   * [Solid color](#solid-color)
   * [Accent colors](#accent-colors)
@@ -265,13 +265,16 @@ BorderBrush=#00FFFF
 
 You can use transformation styles to translate, rotate, scale, or skew elements.
 
+> [!TIP]
 > **Should I use `RenderTransform` or `Transform3D`?**
 >
 > For 2D transformations, it is best to stick to `RenderTransform` in most cases. Using `Transform3D` for 2D transformations can cause elements to become blurry. For 3D transformations, you must use `Transform3D`.
+
 > [!TIP]
 > You can mix and match transformations when using `Transform3D`! You can also use `RenderTransform` and `Transform3D` together.
 >
 > For example: `Transform3D:=<CompositeTransform3D TranslateY="-15" RotationZ="15" ScaleX="1.5" />`
+
 ### Translate
 
   `RenderTransform:=<TranslateTransform Y="-15" X="15" />`
@@ -288,11 +291,9 @@ You can use transformation styles to translate, rotate, scale, or skew elements.
 
   `Transform3D:=<CompositeTransform3D RotationX="-15" RotationY="15" RotationZ="-15" />`
 
-  > X: 3D vertical rotation.
-  >
-  > Y: 3D horizontal rotation.
-  >
-  > Z: 2D rotation.
+  - `X`: 3D vertical rotation.
+  - `Y`: 3D horizontal rotation.
+  - `Z`: 2D rotation.
 
 ### Scale
 
@@ -306,7 +307,7 @@ You can use transformation styles to translate, rotate, scale, or skew elements.
 
   `RenderTransform:=<SkewTransform AngleX="-15" AngleY="15" />`
 
-### Other Properties
+### Other properties
 - Rotate, Scale and Skew:
   - `CenterX`: Offsets the transform's origin on the X axis.
   - `CenterY`: Offsets the transform's origin on the Y axis.

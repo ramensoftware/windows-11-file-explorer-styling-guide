@@ -27,7 +27,7 @@
 * [Gallery Page](#gallery-page)
    * [Gallery page background](#gallery-page-background)
 * [Desktop context menu](#desktop-context-menu)
-   * [Desktop contex menu border](#desktop-context-menu-border) 
+   * [Desktop context menu border](#desktop-context-menu-border) 
 * [Transforms](#transforms)
   * [Translate](#translate)
   * [Rotate](#rotate)
@@ -68,7 +68,7 @@ guide](https://github.com/ramensoftware/windows-11-taskbar-styling-guide/blob/ma
 [The Windows 11 notification center styling
 guide](https://github.com/ramensoftware/windows-11-notification-center-styling-guide/blob/main/README.md).
 
-### Finding Targets
+### Finding targets
 
 [How to find targets using UWPSpy](https://github.com/bbmaster123/FWFU/blob/main/uwpspy.md).
 
@@ -85,7 +85,7 @@ share, please submit a pull request.
 ## Themes
 
 Themes are collections of styles that can be imported into the Windows 11
-Notification Center Styler mod. The following themes are available:
+File Explorer Styler mod. The following themes are available:
 
 | Link | Screenshot
 | ---- | ----------
@@ -399,5 +399,3 @@ Fill:=<ImageBrush Stretch="UniformToFill" ImageSource="<image>" />
 ```
 
 Replace `<image>` with your own image, a URL or a local file path.
-
-[^1]: See [Finding Targets](#finding-targets) on how to use UWPSpy to find all of the available visual states for an element

@@ -1,6 +1,6 @@
 # PreTabs theme for Windows 11 File Explorer Styler
 
-A theme that recreates the 21h2-22h2 File Explorer command bar.
+A theme that recreates the old 21H2-22H2 File Explorer command bar.
 
 **Author**: [SandTechStuff](https://github.com/SandTechStuff)
 
@@ -32,9 +32,11 @@ To get a more accurate look to the old command bar, you can use File Explorer St
 To restore regular Mica instead of MicaAlt on the command bar, you can use the Translucent Windows mod.
 
 1. Install the [Translucent Windows](https://windhawk.net/mods/translucent-windows) mod.
-2. Scroll down to "Process Rules"
-3. In the "Process" box, type `explorer.exe`
-4. In the "Effects" dropdown, select `Mica`
+<!-- 2. Disable "Immersive darkmode titlebar" -->
+<!-- Current version of the mod in the repo does not have this option -->
+2. Scroll down to "Process Rules".
+3. In the "Process" box, type `explorer.exe`.
+4. In the "Effects" dropdown, select `Mica`.
 
 ## Manual installation
 

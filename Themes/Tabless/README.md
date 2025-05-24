@@ -1,6 +1,6 @@
-# PreTabs theme for Windows 11 File Explorer Styler
+# Tabless theme for Windows 11 File Explorer Styler
 
-A theme that recreates the old 21H2-22H2 File Explorer command bar.
+A theme that recreates the old 21H2-22H2 File Explorer command bar before tabs were added.
 
 **Author**: [SandTechStuff](https://github.com/SandTechStuff)
 
@@ -23,7 +23,7 @@ To get a more accurate look to the old command bar, you can use File Explorer St
 
 1. Install the [Classic Explorer navigation bar](https://windhawk.net/mods/explorer-frame-classic) mod. Set `Explorer Style` to `Classic Navigation bar`.
 
-2. In the File Explorer Styler mod, Select the `PreTabs` theme.
+2. In the File Explorer Styler mod, Select the `Tabless` theme.
 
 3. In the File Explorer Styler mod, scroll down to the "Style constants" section and add these:
 

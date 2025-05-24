@@ -17,6 +17,8 @@ settings:
 
 ## Optional mods for additional functionality
 
+![Screenshot](screenshot-classic-nav-bar.png)
+
 To get a more accurate look to the old command bar, you can use File Explorer Styler in combination with Classic Explorer navigation bar.
 
 1. Install the [Classic Explorer navigation bar](https://windhawk.net/mods/explorer-frame-classic) mod. Set `Explorer Style` to `Classic Navigation bar`.

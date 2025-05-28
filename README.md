@@ -92,6 +92,7 @@ File Explorer Styler mod. The following themes are available:
 | [Minimal Explorer11](Themes/Minimal%20Explorer11/README.md) | [![Minimal Explorer11](Themes/Minimal%20Explorer11/screenshot-small.png)](Themes/Minimal%20Explorer11/screenshot.png)
 | [Tabless](Themes/Tabless/README.md) | [![Tabless](Themes/Tabless/screenshot-small.png)](Themes/Tabless/screenshot.png)
 | [NoCommandBar](Themes/NoCommandBar/README.md) | [![NoCommandBar](Themes/NoCommandBar/screenshot-small.png)](Themes/NoCommandBar/screenshot.png)
+| [MicaBar](Themes/MicaBar/README.md) | [![MicaBar](Themes/MicaBar/screenshot-small.png)](Themes/MicaBar/screenshot.png)
 
 ## Explorer frame container height
 
@@ -275,39 +276,53 @@ You can use transformation styles to translate, rotate, scale, or skew elements.
 > [!TIP]
 > You can mix and match transformations when using `Transform3D`! You can also use `RenderTransform` and `Transform3D` together.
 >
-> For example: `Transform3D:=<CompositeTransform3D TranslateY="-15" RotationZ="15" ScaleX="1.5" />`
+> For example: `Transform3D:=<CompositeTransform3D ScaleX="1.5" TranslateY="-15" RotationZ="15" />`
 
 ### Translate
 
-  `RenderTransform:=<TranslateTransform Y="-15" X="15" />`
+```
+RenderTransform:=<TranslateTransform X="15" Y="-15" />
+```
 
-  -- or --
+-- or --
 
-  `Transform3D:=<CompositeTransform3D TranslateY="-15" TranslateX="15" TranslateZ="-15" />`
+```
+Transform3D:=<CompositeTransform3D TranslateX="15" TranslateY="-15" TranslateZ="-15" />
+```
 
 ### Rotate
 
-  `RenderTransform:=<RotateTransform Angle="15" />`
+```
+RenderTransform:=<RotateTransform Angle="15" />
+```
 
-  -- or --
+-- or --
 
-  `Transform3D:=<CompositeTransform3D RotationX="-15" RotationY="15" RotationZ="-15" />`
+```
+Transform3D:=<CompositeTransform3D RotationX="-15" RotationY="15" RotationZ="-15" />
+```
 
-  - `X`: 3D vertical rotation.
-  - `Y`: 3D horizontal rotation.
-  - `Z`: 2D rotation.
+- `X`: 3D vertical rotation.
+- `Y`: 3D horizontal rotation.
+- `Z`: 2D rotation.
 
 ### Scale
 
-  `RenderTransform:=<ScaleTransform ScaleX="1.5" ScaleY="-1.5" />`
+```
+RenderTransform:=<ScaleTransform ScaleX="1.5" ScaleY="-1.5" />
+```
 
-  -- or --
+-- or --
 
-  `Transform3D:=<CompositeTransform3D ScaleX="-1.5" ScaleY="1.5" ScaleZ="-1.5" />`
+```
+Transform3D:=<CompositeTransform3D ScaleX="-1.5" ScaleY="1.5" ScaleZ="-1.5" />
+```
 
 ### Skew
 
-  `RenderTransform:=<SkewTransform AngleX="-15" AngleY="15" />`
+```
+RenderTransform:=<SkewTransform AngleX="-15" AngleY="15" />
+```
 
 ### Other properties
 - Rotate, Scale and Skew:

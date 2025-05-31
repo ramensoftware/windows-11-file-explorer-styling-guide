@@ -32,6 +32,7 @@ The theme styles can also be imported manually. To do that, follow these steps:
 	"controlStyles[0].styles[0]": "Visibility=Collapsed",
 	"controlStyles[1].target": "FileExplorerExtensions.NavigationBarControl",
 	"controlStyles[1].styles[0]": "Grid.RowSpan=2",
+	"controlStyles[1].styles[1]": "Margin=0,0,0,1",
 	"explorerFrameContainerHeight": 87
 }
 ```

@@ -6,15 +6,6 @@ A theme that recreates the old 21H2-22H2 File Explorer command bar before tabs w
 
 ![Screenshot](screenshot.png)
 
-## Theme selection
-
-The theme is integrated into the mod, and can be simply selected from the mod's
-settings:
-
-* Open the Windows 11 File Explorer Styler mod in Windhawk.
-* Go to the "Settings" tab.
-* Select the theme and save the settings.
-
 ## Optional mods for additional functionality
 
 ![Screenshot](screenshot-classic-nav-bar.png)
@@ -23,7 +14,7 @@ To get a more accurate look to the old command bar, you can use File Explorer St
 
 1. Install the [Classic Explorer navigation bar](https://windhawk.net/mods/explorer-frame-classic) mod. Set `Explorer Style` to `Classic Navigation bar`.
 
-2. In the File Explorer Styler mod, Select the `Tabless` theme.
+2. In the File Explorer Styler mod, select the `Tabless` theme.
 
 3. In the File Explorer Styler mod, scroll down to the "Style constants" section and add these:
 
@@ -39,6 +30,15 @@ To restore regular Mica instead of MicaAlt on the command bar, you can use the T
 2. Scroll down to "Process Rules".
 3. In the "Process" box, type `explorer.exe`.
 4. In the "Effects" dropdown, select `Mica`.
+
+## Theme selection
+
+The theme is integrated into the mod, and can be simply selected from the mod's
+settings:
+
+* Open the Windows 11 File Explorer Styler mod in Windhawk.
+* Go to the "Settings" tab.
+* Select the theme and save the settings.
 
 ## Manual installation
 

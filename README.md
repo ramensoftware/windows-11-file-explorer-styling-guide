@@ -10,7 +10,7 @@
 * [Explorer frame container height](#explorer-frame-container-height)
 * [Tab](#tab)
   * [Tab text color](#tab-text-color)
-  * [Tab Background](#tab-background)
+  * [Tab background](#tab-background)
   * [Remove tab](#remove-tab)
   * [Remove tab close button](#remove-tab-close-button)
   * [Remove tab add button](#remove-tab-add-button)
@@ -99,11 +99,6 @@ File Explorer Styler mod. The following themes are available:
 
 The height of the explorer frame container which includes the tabs, the address bar, and the command bar, set to zero to use the default height.
 
-Value:
-```
-(value) >= 0
-```
-
 ## Tab
 
 ### Tab text color
@@ -117,7 +112,7 @@ Style:
 Foreground=Magenta
 ```
 
-### Tab Background
+### Tab background
 
 Target:
 ```
@@ -256,7 +251,7 @@ Background=Transparent
 
 ### Desktop context menu border
 
-Targets:
+Target:
 ```
 CommandBarOverflowPresenter#SecondaryItemsControl > Grid#LayoutRoot > Border
 ```

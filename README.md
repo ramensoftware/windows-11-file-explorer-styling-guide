@@ -27,7 +27,7 @@
 * [Gallery Page](#gallery-page)
    * [Gallery page background](#gallery-page-background)
 * [Desktop context menu](#desktop-context-menu)
-   * [Desktop context menu border](#desktop-context-menu-border) 
+   * [Desktop context menu border](#desktop-context-menu-border)
 * [Transforms](#transforms)
   * [Translate](#translate)
   * [Rotate](#rotate)
@@ -61,11 +61,11 @@ to your preferences.
 Some customizations are best to be adjusted with other Windhawk mods. Links to
 those mods are provided where applicable.
 
-**See also**:  
+**See also**: \
 [The Windows 11 start menu styling
-guide](https://github.com/ramensoftware/windows-11-start-menu-styling-guide/blob/main/README.md),  
+guide](https://github.com/ramensoftware/windows-11-start-menu-styling-guide/blob/main/README.md), \
 [The Windows 11 taskbar styling
-guide](https://github.com/ramensoftware/windows-11-taskbar-styling-guide/blob/main/README.md),  
+guide](https://github.com/ramensoftware/windows-11-taskbar-styling-guide/blob/main/README.md), \
 [The Windows 11 notification center styling
 guide](https://github.com/ramensoftware/windows-11-notification-center-styling-guide/blob/main/README.md).
 
@@ -322,6 +322,7 @@ RenderTransform:=<SkewTransform AngleX="-15" AngleY="15" />
 ```
 
 ### Other properties and attributes
+
 - Applies to Rotate, Scale and Skew:
   - `CenterX`: Offsets the transform's origin on the X axis.
   - `CenterY`: Offsets the transform's origin on the Y axis.
@@ -336,7 +337,7 @@ RenderTransform:=<SkewTransform AngleX="-15" AngleY="15" />
   - Sets the transform origin relative to its target's width and height. Format is `X,Y` and both numbers range from 0-1.
 
   Example:
-  
+
   ```
   RenderTransformOrigin=0.5,0.5
   ```
@@ -349,6 +350,7 @@ RenderTransform:=<SkewTransform AngleX="-15" AngleY="15" />
   ```
   RenderTransform:=<TransformGroup><RotateTransform Angle="15" /><TranslateTransform X="15" Y="-15" /></TransformGroup>
   ```
+
 ## Colors
 
 In the following examples we're gonna use `Fill` as an example, but this also
@@ -422,7 +424,7 @@ _This example sets a blur that is tinted with red at 50% opacity._
 
 - `BlurAmount`: Radius of blur effect (set to 30 to mimic Acrylic).
 - `TintColor`: Hex color in `#AARRGGBB` format that is applied to the blur.
-  - `ThemeResource` colors and color names (e.g. `Red`) are currently not supported. 
+  - `ThemeResource` colors and color names (e.g. `Red`) are currently not supported.
 
 ### Mica effect as color
 

@@ -94,6 +94,7 @@ File Explorer Styler mod. The following themes are available:
 | [Tabless](Themes/Tabless/README.md) | [![Tabless](Themes/Tabless/screenshot-small.png)](Themes/Tabless/screenshot.png)
 | [NoCommandBar](Themes/NoCommandBar/README.md) | [![NoCommandBar](Themes/NoCommandBar/screenshot-small.png)](Themes/NoCommandBar/screenshot.png)
 | [MicaBar](Themes/MicaBar/README.md) | [![MicaBar](Themes/MicaBar/screenshot-small.png)](Themes/MicaBar/screenshot.png)
+| [Translucent Explorer11](Themes/Translucent%20Explorer11/README.md) | [![Translucent Explorer11](Themes/Translucent%20Explorer11/screenshot-small.png)](Themes/Translucent%20Explorer11/screenshot.png)
 
 ## Explorer frame container height
 

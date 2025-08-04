@@ -1,4 +1,4 @@
-# Tabless theme for Windows 11 File Explorer Styler
+# Translucent Explorer 11 theme for Windows 11 File Explorer Styler
 
 A theme that modifies the WinUI elements of Windows 11 File Explorer to a transparent/translucent background.
 
@@ -9,7 +9,7 @@ A theme that modifies the WinUI elements of Windows 11 File Explorer to a transp
 **To get translucent effects, you can use the Translucent Windows mod.**
 
 - Install the [Translucent Windows](https://windhawk.net/mods/translucent-windows) mod.
-- Select an effect type option and save
+- Select an effect type option and save.
 
 ## Theme selection
 

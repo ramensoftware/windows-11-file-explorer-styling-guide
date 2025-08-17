@@ -31,9 +31,9 @@ settings:
 
 The theme styles can also be imported manually. To do that, follow these steps:
 -->
-<!-- temporary -->## Manual installation
-<!-- temporary -->
-<!-- temporary -->To import the theme styles, follow these steps:
+## Manual installation
+
+To import the theme styles, follow these steps:
 
 * Open the Windows 11 File Explorer Styler mod in Windhawk.
 * Go to the "Advanced" tab.

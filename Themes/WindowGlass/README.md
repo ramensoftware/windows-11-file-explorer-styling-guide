@@ -14,7 +14,7 @@ A theme that gives a modern, glassy aesthetic to the Windows 11 File Explorer.
 - This theme will only work on / can only style the WinUI parts of File Explorer.
 
 
-## Full Window Preview with 'Blur(accent blur behind)' as background.
+## Full Window Preview with 'Blur(accent blur behind)' as the background material.
 ![Full File explorer window preview](Explorer_Full.png) 
 - Other background materials can be found in the 'Translucent Windows' mod, including:
   - Mica

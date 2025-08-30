@@ -1,5 +1,5 @@
 # WindowGlass theme for Windows 11 File Explorer Styler
-A theme that gives a modern, glassy aesthetic to the Windows 11 File Explorer.
+A theme that gives a modern, glassy aesthetic with a compact layout to the Windows 11 File Explorer.
 
 **Author**: [Nathaniel4JC](https://github.com/Nathaniel4JC)
 

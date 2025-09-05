@@ -10,7 +10,7 @@ A theme that recreates the old 21H2-22H2 File Explorer command bar before tabs w
 
 ![Screenshot](screenshot-classic-nav-bar.png)
 
-To get a more accurate look to the old command bar, you can use File Explorer Styler in combination with Classic Explorer navigation bar.
+To get a more accurate look of the old command bar, you can use File Explorer Styler in combination with the Classic Explorer navigation bar.
 
 1. Install the [Classic Explorer navigation bar](https://windhawk.net/mods/explorer-frame-classic) mod. Set `Explorer Style` to `Classic Navigation bar`.
 

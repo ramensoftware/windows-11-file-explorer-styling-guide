@@ -58,8 +58,8 @@ If you're not familiar with Windhawk, here are the steps for installing the mod:
 After installing the mod, open its Settings tab and adjust the styles according
 to your preferences.
 
-Some customizations are best to be adjusted with other Windhawk mods. Links to
-those mods are provided where applicable.
+Some customizations are best adjusted with other Windhawk mods. Links to those
+mods are provided where applicable.
 
 **See also**: \
 [The Windows 11 start menu styling
@@ -99,7 +99,7 @@ File Explorer Styler mod. The following themes are available:
 
 ## Explorer frame container height
 
-The height of the explorer frame container which includes the tabs, the address bar, and the command bar, set to zero to use the default height.
+The height of the explorer frame container, which includes the tabs, the address bar, and the command bar; set it to zero to use the default height.
 
 ## Tab
 
@@ -354,8 +354,8 @@ RenderTransform:=<SkewTransform AngleX="-15" AngleY="15" />
 
 ## Colors
 
-In the following examples we're gonna use `Fill` as an example, but this also
-works for other properties that accept colors like `Background`.
+In the following examples, we're going to use `Fill` as an example, but this
+also works for other properties that accept colors, like `Background`.
 
 ### Solid color
 
@@ -372,7 +372,7 @@ transparent background, use `Transparent`.
 
 ### Accent colors
 
-A Color can also be a `ThemeResource` or `StaticResource`. There are many such
+A color can also be a `ThemeResource` or `StaticResource`. There are many such
 styles built into Windows.
 
 ```
@@ -380,8 +380,8 @@ Fill:=<SolidColorBrush Color="{ThemeResource SystemAccentColor}" Opacity="0.8" /
 ```
 
 Accent colors have different lightness available, like `SystemAccentColorLight2`
-or `SystemAccentColorDark1`. The word `Light` or `Dark` is appended at end with
-a number ranging from 1-3. Check out [the official Microsoft
+or `SystemAccentColorDark1`. The word `Light` or `Dark` is appended at the end
+with a number ranging from 1 to 3. Check out [the official Microsoft
 docs](https://learn.microsoft.com/en-us/windows/apps/design/style/color#accent-color-palette)
 for all variations.
 
@@ -399,16 +399,16 @@ Fill=Transparent
 
 ### Acrylic effect as color
 
-In order to have an acrylic effect (a blurred background) you can use
-`AcrylicBrush`, this comes with `TintOpacity` which defines how much of the
-color needs to be applied.
+In order to have an acrylic effect (a blurred background), you can use
+`AcrylicBrush`. It comes with `TintOpacity`, which defines how much of the color
+needs to be applied.
 
 ```
 Fill:=<AcrylicBrush TintColor="Black" TintOpacity="0.8" />
 ```
 
 You can also mix acrylic with a variation of an accent color for a more dynamic
-look that fits current theme.
+look that fits the current theme.
 
 ```
 Fill:=<AcrylicBrush TintColor="{ThemeResource SystemAccentColorDark2}" TintOpacity="0.3" />
@@ -430,7 +430,7 @@ _This example sets a blur that is tinted with red at 50% opacity._
 ### Mica effect as color
 
 > [!NOTE]
-> Unfortunately I haven't figured this out yet. If you have any info please
+> Unfortunately, I haven't figured this out yet. If you have any info, please
 > contribute by making a pull request.
 
 ### Gradient as color

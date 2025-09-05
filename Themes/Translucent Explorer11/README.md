@@ -13,7 +13,7 @@ A theme that modifies the WinUI elements of Windows 11 File Explorer to a transp
 
 ## Theme selection
 
-The theme is integrated into the mod, and can be simply selected from the mod's
+The theme is integrated into the mod and can simply be selected from the mod's
 settings:
 
 * Open the Windows 11 File Explorer Styler mod in Windhawk.

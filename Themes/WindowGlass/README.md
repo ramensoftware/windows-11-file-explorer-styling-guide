@@ -97,16 +97,19 @@ The theme styles can also be imported manually. To do that, follow these steps:
   "controlStyles[9].styles[0]": "Background:=Transparent",
   "controlStyles[9].styles[1]": "BorderBrush:=Transparent",
   "controlStyles[10].target": "Microsoft.UI.Xaml.Controls.Grid#HomeViewRootGrid",
-  "controlStyles[10].styles[0]": "BorderBrush:=$Background2",
+  "controlStyles[10].styles[0]": "BorderBrush:=$MainContentBG",
   "controlStyles[10].styles[1]": "CornerRadius=8",
   "controlStyles[10].styles[2]": "BorderThickness=0",
   "controlStyles[10].styles[3]": "Margin=0,0,8,8",
+  "controlStyles[10].styles[4]": "Background:=$MainContentBG",
   "controlStyles[11].target": "FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid  ",
-  "controlStyles[11].styles[0]": "BorderBrush:=$Background2",
+  "controlStyles[11].styles[0]": "BorderBrush:=$MainContentBG",
   "controlStyles[11].styles[1]": "CornerRadius=8",
   "controlStyles[11].styles[2]": "BorderThickness=0",
   "controlStyles[11].styles[3]": "Margin=0,0,8,8",
+  "controlStyles[11].styles[4]": "Background:=$MainContentBG",
   "controlStyles[12].target": "FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid > Grid#GalleryRootGrid",
+  "controlStyles[12].styles[0]": "Background:=$MainContentBG",
   "controlStyles[13].target": "ToolTip",
   "controlStyles[13].styles[0]": "Background:=$Background",
   "controlStyles[14].target": "Grid#TabContainerGrid > Border#LeftBottomBorderLine",
@@ -170,9 +173,9 @@ The theme styles can also be imported manually. To do that, follow these steps:
   "controlStyles[31].styles[3]": "Background:=Transparent",
   "controlStyles[31].styles[4]": "BorderBrush:=Transparent",
   "controlStyles[32].target": "Microsoft.UI.Xaml.Controls.Grid#FileExplorerAddressBarGrid",
-  "controlStyles[32].styles[0]": "Width=800",
+  "controlStyles[32].styles[0]": "Width=750",
   "controlStyles[32].styles[1]": "HorizontalAlignment=Center",
-  "controlStyles[32].styles[2]": "RenderTransform:=<TranslateTransform X=\"100\" />",
+  "controlStyles[32].styles[2]": "RenderTransform:=<TranslateTransform X=\"120\" />",
   "controlStyles[32].styles[3]": "CornerRadius=$CornerRadius",
   "controlStyles[33].target": "Microsoft.UI.Xaml.Controls.AutoSuggestBox#PART_AutoSuggestBox > Microsoft.UI.Xaml.Controls.Grid#LayoutRoot > Microsoft.UI.Xaml.Controls.TextBox#TextBox",
   "controlStyles[33].styles[0]": "CornerRadius=$CornerRadius",
@@ -195,7 +198,8 @@ The theme styles can also be imported manually. To do that, follow these steps:
   "styleConstants[3]": "ButtonBackground=<SolidColorBrush Color=\"{ThemeResource SystemAccentColor}\" Opacity=\"1\" />",
   "styleConstants[4]": "ButtonBorder=<SolidColorBrush Color=\"{ThemeResource SystemAccentColorLight3}\" Opacity=\"1\" />",
   "styleConstants[5]": "CornerRadius=8",
-  "styleConstants[6]": "Background2=<SolidColorBrush Color=\"{ThemeResource SystemChromeAltHighColor}\" Opacity=\"0\" />"
+  "styleConstants[6]": "Background2=<SolidColorBrush Color=\"{ThemeResource SystemChromeAltHighColor}\" Opacity=\"0\" />",
+  "styleConstants[7]": "MainContentBG=<SolidColorBrush Color=\"{ThemeResource SystemChromeAltHighColor}\" Opacity=\"1\" />"
 }
 ```
 </details>

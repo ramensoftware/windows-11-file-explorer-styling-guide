@@ -59,4 +59,4 @@ The theme styles can also be imported manually. To do that, follow these steps:
   "theme": ""
 }
 ```
-
+</details>

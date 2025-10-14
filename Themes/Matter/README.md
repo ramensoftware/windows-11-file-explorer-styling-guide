@@ -124,4 +124,4 @@ To import the theme styles, follow these steps:
   "controlStyles[0].styles[1]": "HorizontalAlignment  = 1"
 }
 ```
-
+</details>

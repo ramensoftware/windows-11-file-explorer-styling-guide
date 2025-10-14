@@ -98,7 +98,6 @@ File Explorer Styler mod. The following themes are available:
 | [Matter](Themes/Matter/README.md) | [![Matter](Themes/Matter/screenshot-small.png)](Themes/Matter/screenshot.png)
 | [WindowGlass](Themes/WindowGlass/README.md) | [![WindowGlass](Themes/WindowGlass/screenshot-small.png)](Themes/WindowGlass/screenshot.png)
 
-
 ## Explorer frame container height
 
 The height of the explorer frame container, which includes the tabs, the address bar, and the command bar; set it to zero to use the default height.

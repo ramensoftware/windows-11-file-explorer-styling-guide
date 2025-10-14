@@ -1,11 +1,10 @@
 # WindowGlass theme for Windows 11 File Explorer Styler
-A theme that gives a modern, glassy aesthetic with a compact layout to the Windows 11 File Explorer.
+A theme that gives Windows 11 File Explorer a modern, glassy aesthetic with a compact layout.
 
 **Author**: [Nathaniel4JC](https://github.com/Nathaniel4JC)
 
 ## Preview
 ![Preview](Top_Bar.png)
-
 
 ## Notes
 - This theme works best on Windows 11 **22H2** and later.
@@ -13,34 +12,32 @@ A theme that gives a modern, glassy aesthetic with a compact layout to the Windo
 - The background material of Windows Explorer windows will depend on what material is selected. To choose between background materials, you can use the 'Translucent Windows' mod.
 - This theme will only work on / can only style the WinUI parts of File Explorer.
 
-
-## Full Window Preview with 'Blur(accent blur behind)' as the background material.
-![Full File explorer window preview](Explorer_Full.png) 
+## Full window preview with 'Blur (accent blur behind)' as the background material.
+![Full File Explorer window preview](Explorer_Full.png) 
 - Other background materials can be found in the 'Translucent Windows' mod, including:
   - Mica
   - Mica Alt
   - Acrylic
 
+## More details about this theme
+- Designed for Windows 11 24H2.
+- Not fully compatible with light mode yet.
 
-## More Details about this theme
-- Theme is designed on Windows 11 - 24H2
-- Not fully compatible with light mode yet...
-
-## For a complete WindowGlass themed UI, download the following mods and use the 'WindowGlass' theme:
-- Windows 11 TaskBar Styler – for styling the Taskbar.
-- Windows 11 Notification Center Styler - for styling the Notification Center and Action Center
-- Windows 11 Start Menu Styler - for styling Windows' Start Menu.
+## For a complete WindowGlass-themed UI, download the following mods and use the 'WindowGlass' theme:
+- Windows 11 Taskbar Styler - for styling the taskbar.
+- Windows 11 Notification Center Styler - for styling the Notification Center and Action Center.
+- Windows 11 Start Menu Styler - for styling the Windows Start menu.
 
 ---
 
 ## Theme selection
 
-The theme is integrated into the mod, and can be simply selected from the mod's
+The theme is integrated into the mod and can simply be selected from the mod's
 settings:
 
 * Open the Windows 11 File Explorer Styler mod in Windhawk.
 * Go to the "Settings" tab.
-* Select the 'WindowGlass' theme and save the settings.
+* Select the theme and save the settings.
 
 ## Manual installation
 
@@ -54,7 +51,6 @@ The theme styles can also be imported manually. To do that, follow these steps:
 <summary>Content to import (click to expand)</summary>
 
 ```json
-
 {
   "theme": "",
   "controlStyles[0].target": "Microsoft.UI.Xaml.Controls.Grid#PART_LayoutRoot",

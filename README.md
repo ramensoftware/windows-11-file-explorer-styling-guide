@@ -90,11 +90,11 @@ File Explorer Styler mod. The following themes are available:
 
 | Link | Screenshot
 | ---- | ----------
+| [Translucent Explorer11](Themes/Translucent%20Explorer11/README.md) | [![Translucent Explorer11](Themes/Translucent%20Explorer11/screenshot-small.png)](Themes/Translucent%20Explorer11/screenshot.png)
+| [MicaBar](Themes/MicaBar/README.md) | [![MicaBar](Themes/MicaBar/screenshot-small.png)](Themes/MicaBar/screenshot.png)
+| [NoCommandBar](Themes/NoCommandBar/README.md) | [![NoCommandBar](Themes/NoCommandBar/screenshot-small.png)](Themes/NoCommandBar/screenshot.png)
 | [Minimal Explorer11](Themes/Minimal%20Explorer11/README.md) | [![Minimal Explorer11](Themes/Minimal%20Explorer11/screenshot-small.png)](Themes/Minimal%20Explorer11/screenshot.png)
 | [Tabless](Themes/Tabless/README.md) | [![Tabless](Themes/Tabless/screenshot-small.png)](Themes/Tabless/screenshot.png)
-| [NoCommandBar](Themes/NoCommandBar/README.md) | [![NoCommandBar](Themes/NoCommandBar/screenshot-small.png)](Themes/NoCommandBar/screenshot.png)
-| [MicaBar](Themes/MicaBar/README.md) | [![MicaBar](Themes/MicaBar/screenshot-small.png)](Themes/MicaBar/screenshot.png)
-| [Translucent Explorer11](Themes/Translucent%20Explorer11/README.md) | [![Translucent Explorer11](Themes/Translucent%20Explorer11/screenshot-small.png)](Themes/Translucent%20Explorer11/screenshot.png)
 | [Matter](Themes/Matter/README.md) | [![Matter](Themes/Matter/screenshot-small.png)](Themes/Matter/screenshot.png)
 | [WindowGlass](Themes/WindowGlass/README.md) | [![WindowGlass](Themes/WindowGlass/screenshot-small.png)](Themes/WindowGlass/screenshot.png)
 

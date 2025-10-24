@@ -17,7 +17,7 @@ A theme that modifies the WinUI elements of Windows 11 File Explorer.
 
 ### Light mode
 ![DefaultLight](DefaultLight.png)
-<!--
+
 ## Theme selection
 
 The theme is integrated into the mod and can simply be selected from the mod's
@@ -30,10 +30,6 @@ settings:
 ## Manual installation
 
 The theme styles can also be imported manually. To do that, follow these steps:
--->
-## Manual installation
-
-To import the theme styles, follow these steps:
 
 * Open the Windows 11 File Explorer Styler mod in Windhawk.
 * Go to the "Advanced" tab.

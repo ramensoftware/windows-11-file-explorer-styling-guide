@@ -97,7 +97,7 @@ File Explorer Styler mod. The following themes are available:
 | [Tabless](Themes/Tabless/README.md) | [![Tabless](Themes/Tabless/screenshot-small.png)](Themes/Tabless/screenshot.png)
 | [Matter](Themes/Matter/README.md) | [![Matter](Themes/Matter/screenshot-small.png)](Themes/Matter/screenshot.png)
 | [WindowGlass](Themes/WindowGlass/README.md) | [![WindowGlass](Themes/WindowGlass/screenshot-small.png)](Themes/WindowGlass/screenshot.png)
-| [AddressSearchOnly](Themes/AddressSearchOnly/README.md) | [![WindowGlass](Themes/AddressSearchOnly/screenshot-small.png)](Themes/AddressSearchOnly/screenshot.png)
+| [AddressSearchOnly](Themes/AddressSearchOnly/README.md) | [![AddressSearchOnly](Themes/AddressSearchOnly/screenshot-small.png)](Themes/AddressSearchOnly/screenshot.png)
 
 ## Explorer frame container height
 

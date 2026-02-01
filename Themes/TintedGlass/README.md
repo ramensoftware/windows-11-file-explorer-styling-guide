@@ -470,7 +470,7 @@ Add these to your start-up folder to apply your accent colors throughout windows
 The theme is integrated into the mod and can simply be selected from the mod's
 settings:
 
-* Open the Windows 11 Taskbar Styler mod in Windhawk.
+* Open the Windows 11 File Explorer Styler mod in Windhawk.
 * Go to the "Settings" tab.
 * Select the theme and save the settings.
 
@@ -478,7 +478,7 @@ settings:
 
 The theme styles can also be imported manually. To do that, follow these steps:
 
-* Open the Windows 11 Taskbar Styler mod in Windhawk.
+* Open the Windows 11 File Explorer Styler mod in Windhawk.
 * Go to the "Advanced" tab.
 * Copy the content below to the text box under "Mod settings" and click "Save".
 

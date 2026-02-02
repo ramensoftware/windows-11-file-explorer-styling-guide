@@ -101,9 +101,7 @@ To achieve the full look, install and configure the following Windhawk mods in a
   "controlStyles[3].styles[0]": "Fill:=$CommonBgBrush",
   "styleConstants[0]": "CommonBgBrush=<WindhawkBlur BlurAmount=\"18\" TintColor=\"#80000000\"/>",
   "controlStyles[10].target": "TextBlock",
-  "controlStyles[10].styles[0]": "Fill=#FFFFFF",
-  "resourceVariables[0].variableKey": "",
-  "resourceVariables[0].value": ""
+  "controlStyles[10].styles[0]": "Fill=#FFFFFF"
 }
 ```
 </details>
@@ -298,8 +296,6 @@ To achieve the full look, install and configure the following Windhawk mods in a
   "controlStyles[26].styles[0]": "TextAlignment=Center",
   "controlStyles[27].target": "StackPanel#PrimaryAndSecondaryTextContainer > TextBlock#SubtitleText",
   "controlStyles[27].styles[0]": "TextAlignment=Center",
-  "resourceVariables[0].variableKey": "",
-  "resourceVariables[0].value": "",
   "styleConstants[0]": "Base=<WindhawkBlur BlurAmount=\"18\" TintColor=\"#80000000\"/>",
   "styleConstants[1]": "Radius=14",
   "styleConstants[2]": "Transparent=<SolidColorBrush Color=\"Transparent\"/>",
@@ -416,13 +412,7 @@ To achieve the full look, install and configure the following Windhawk mods in a
   "controlStyles[23].target": "StartDocked.AllAppsGridListViewItem > Grid#ContentBorder@CommonStates",
   "controlStyles[23].styles[0]": "Background@PointerOver:=<WindhawkBlur BlurAmount=\"25\" TintColor=\"#15C0C0C0\"/>",
   "controlStyles[23].styles[1]": "CornerRadius=14",
-  "styleConstants[0]": "CommonBgBrush=<WindhawkBlur BlurAmount=\"18\" TintColor=\"#80000000\"/>",
-  "disableNewStartMenuLayout": 0,
-  "webContentStyles[0].target": "",
-  "webContentStyles[0].styles[0]": "",
-  "webContentCustomJs": "",
-  "resourceVariables[0].variableKey": "",
-  "resourceVariables[0].value": ""
+  "styleConstants[0]": "CommonBgBrush=<WindhawkBlur BlurAmount=\"18\" TintColor=\"#80000000\"/>"
 }
 ```
 </details>
@@ -512,9 +502,7 @@ The theme styles can also be imported manually. To do that, follow these steps:
   "controlStyles[3].styles[0]": "Fill:=$CommonBgBrush",
   "styleConstants[0]": "CommonBgBrush=<WindhawkBlur BlurAmount=\"18\" TintColor=\"#80000000\"/>",
   "controlStyles[10].target": "TextBlock",
-  "controlStyles[10].styles[0]": "Fill=#FFFFFF",
-  "resourceVariables[0].variableKey": "",
-  "resourceVariables[0].value": ""
+  "controlStyles[10].styles[0]": "Fill=#FFFFFF"
 }
 ```
 </details>

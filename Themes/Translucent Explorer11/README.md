@@ -55,8 +55,7 @@ The theme styles can also be imported manually. To do that, follow these steps:
   "controlStyles[8].styles[0]": "Background=Transparent",
   "controlStyles[9].target": "StackPanel#DetailsViewThumbnail > Grid",
   "controlStyles[9].styles[0]": "Background=Transparent",
-  "explorerFrameContainerHeight": 0,
-  "theme": ""
+  "explorerFrameContainerHeight": 0
 }
 ```
 </details>

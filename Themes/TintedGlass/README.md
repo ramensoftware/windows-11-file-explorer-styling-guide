@@ -477,6 +477,7 @@ The theme styles can also be imported manually. To do that, follow these steps:
 
 ```json
 {
+  "backgroundTranslucentEffect": "acrylic",
   "controlStyles[0].target": "Grid#CommandBarControlRootGrid",
   "controlStyles[0].styles[0]": "Background:=$CommonBgBrush",
   "controlStyles[0].styles[1]": "BorderThickness=0,0,0,0",

@@ -5,7 +5,7 @@ A minimal theme displaying only the address bar and search box for the Windows 1
 **Author**: [navandstokes](https://github.com/navandstokes)
 
 ![Screenshot](screenshot.png)
-<!--
+
 ## Theme selection
 
 The theme is integrated into the mod and can simply be selected from the mod's
@@ -18,10 +18,6 @@ settings:
 ## Manual installation
 
 The theme styles can also be imported manually. To do that, follow these steps:
--->
-## Manual installation
-
-The theme styles have to be imported manually. To do that, follow these steps:
 
 * Open the Windows 11 File Explorer Styler mod in Windhawk.
 * Go to the "Advanced" tab.

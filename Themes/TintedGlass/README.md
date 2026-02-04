@@ -99,9 +99,7 @@ To achieve the full look, install and configure the following Windhawk mods in a
   "controlStyles[9].styles[0]": "Background:=$CommonBgBrush",
   "explorerFrameContainerHeight": 0,
   "controlStyles[3].styles[0]": "Fill:=$CommonBgBrush",
-  "styleConstants[0]": "CommonBgBrush=<WindhawkBlur BlurAmount=\"18\" TintColor=\"#80000000\"/>",
-  "controlStyles[10].target": "TextBlock",
-  "controlStyles[10].styles[0]": "Fill=#FFFFFF"
+  "styleConstants[0]": "CommonBgBrush=<WindhawkBlur BlurAmount=\"18\" TintColor=\"#80000000\"/>"
 }
 ```
 </details>
@@ -501,9 +499,7 @@ The theme styles can also be imported manually. To do that, follow these steps:
   "controlStyles[9].styles[0]": "Background:=$CommonBgBrush",
   "explorerFrameContainerHeight": 0,
   "controlStyles[3].styles[0]": "Fill:=$CommonBgBrush",
-  "styleConstants[0]": "CommonBgBrush=<WindhawkBlur BlurAmount=\"18\" TintColor=\"#80000000\"/>",
-  "controlStyles[10].target": "TextBlock",
-  "controlStyles[10].styles[0]": "Fill=#FFFFFF"
+  "styleConstants[0]": "CommonBgBrush=<WindhawkBlur BlurAmount=\"18\" TintColor=\"#80000000\"/>"
 }
 ```
 </details>

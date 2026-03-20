@@ -1,4 +1,4 @@
-# Liquid Glass
+# LiquidGlass theme for Windows 11 File Explorer Styler
 
 **Author**: [PhantomNimbi](https://github.com/PhantomNimbi)
 
@@ -8,16 +8,71 @@
   * [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-explorer-styler)
   * [Translucent Windows](https://windhawk.net/mods/translucent-windows)
 
----
+![Screenshot](screenshot.png)
 
-<img src="preview-full.png" width="100%" height="auto" />
+### Translucent Windows
+
+* Open the "Translucent Windows" mod in Windhawk.
+* Go to the "Advanced" tab and copy the code below into the "Mod settings" box and click "Save".
+
+<details>
+<summary>Content to import (click to expand)</summary>
+
+```json
+{
+  "RenderingMod.ThemeBackground": 1,
+  "RenderingMod.SysColors": 0,
+  "RenderingMod.AccentColorControls": 1,
+  "type": "acrylicblur",
+  "AccentBlurBehind": "3A232323",
+  "FlyoutsEffects": 1,
+  "ImmersiveDarkTitle": 1,
+  "ExtendFrame": 1,
+  "CornerOption": "smallround",
+  "RainbowSpeed": 1,
+  "TitlebarColor.ColorTitlebar": 0,
+  "TitlebarColor.RainbowTitlebar": 0,
+  "TitlebarColor.titlerbarstyles_active": "FF0000",
+  "TitlebarColor.titlerbarstyles_inactive": "00FFFF",
+  "TitlebarTextColor.ColorTitlebarText": 0,
+  "TitlebarTextColor.RainbowTextColor": 0,
+  "TitlebarTextColor.titlerbarcolorstyles_active": "FF0000",
+  "TitlebarTextColor.titlerbarcolorstyles_inactive": "00FFFF",
+  "BorderColor.ColorBorder": 0,
+  "BorderColor.RainbowBorder": 0,
+  "BorderColor.borderstyles_active": "FF0000",
+  "BorderColor.borderstyles_inactive": "00FFFF",
+  "RuledPrograms[0].target": "",
+  "RuledPrograms[0].RenderingMod.ThemeBackground": 0,
+  "RuledPrograms[0].RenderingMod.AccentColorControls": 0,
+  "RuledPrograms[0].type": "",
+  "RuledPrograms[0].AccentBlurBehind": "",
+  "RuledPrograms[0].ImmersiveDarkTitle": 0,
+  "RuledPrograms[0].ExtendFrame": 0,
+  "RuledPrograms[0].CornerOption": "",
+  "RuledPrograms[0].RainbowSpeed": 0,
+  "RuledPrograms[0].TitlebarColor.ColorTitlebar": 0,
+  "RuledPrograms[0].TitlebarColor.RainbowTitlebar": 0,
+  "RuledPrograms[0].TitlebarColor.titlerbarstyles_active": "",
+  "RuledPrograms[0].TitlebarColor.titlerbarstyles_inactive": "",
+  "RuledPrograms[0].TitlebarTextColor.ColorTitlebarText": 0,
+  "RuledPrograms[0].TitlebarTextColor.RainbowTextColor": 0,
+  "RuledPrograms[0].TitlebarTextColor.titlerbarcolorstyles_active": "",
+  "RuledPrograms[0].TitlebarTextColor.titlerbarcolorstyles_inactive": "",
+  "RuledPrograms[0].BorderColor.ColorBorder": 0,
+  "RuledPrograms[0].BorderColor.RainbowBorder": 0,
+  "RuledPrograms[0].BorderColor.borderstyles_active": "",
+  "RuledPrograms[0].BorderColor.borderstyles_inactive": ""
+}
+```
+</details>
 
 ## Theme selection
 
-The theme is integrated into the mod and can simply be selected from the mod's
+The theme is integrated into the mod and can be selected directly from the mod's
 settings:
 
-* Open the Windows 11 File Explorer mod in Windhawk.
+* Open the Windows 11 File Explorer Styler mod in Windhawk.
 * Go to the "Settings" tab.
 * Select the theme and save the settings.
 
@@ -34,12 +89,10 @@ The theme styles can also be imported manually. To do that, follow these steps:
 
 ```json
 {
-  "theme": "",
+  "backgroundTranslucentEffect": "acrylic",
   "controlStyles[0].target": "Microsoft.UI.Xaml.Controls.Grid#PART_LayoutRoot",
   "controlStyles[0].styles[0]": "Background=Transparent",
   "styleConstants[0]": "Background=<WindhawkBlur BlurAmount=\"15\" TintColor=\"#25323232\" TintOpacity=\"0.2\" />",
-  "resourceVariables[0].variableKey": "",
-  "resourceVariables[0].value": "",
   "explorerFrameContainerHeight": 87,
   "controlStyles[0].styles[1]": "HorizontalAlignment=Stretch",
   "controlStyles[1].target": "FileExplorerExtensions.FirstCrumbStackPanelControl#FirstCrumbStackPanel",
@@ -153,72 +206,7 @@ The theme styles can also be imported manually. To do that, follow these steps:
   "controlStyles[34].target": "Grid#DetailsViewControlRootGrid",
   "controlStyles[35].target": "StackPanel#DetailsViewThumbnail",
   "controlStyles[34].styles[0]": "Background:=Transparent",
-  "controlStyles[35].styles[0]": "Background:=Transparent",
-  "backgroundTranslucentEffect": "",
-  "backgroundTranslucentEffectRegion": "",
-  "themeResourceVariables[0]": "",
-  "xamlDiagnosticsHandling": "alert"
+  "controlStyles[35].styles[0]": "Background:=Transparent"
 }
 ```
-
-</details>
-
----
-
-### Translucent Windows
-
-* Open the `Translucent Windows` mod in Windhawk.
-* Go to the `Advanced` tab and copy the code below into the `Mod settings` box and click `save`.
-
-<details>
-<summary>Content to import (click to expand)</summary>
-
-```json
-{
-  "RenderingMod.ThemeBackground": 1,
-  "RenderingMod.SysColors": 0,
-  "RenderingMod.AccentColorControls": 1,
-  "type": "acrylicblur",
-  "AccentBlurBehind": "3A232323",
-  "FlyoutsEffects": 1,
-  "ImmersiveDarkTitle": 1,
-  "ExtendFrame": 1,
-  "CornerOption": "smallround",
-  "RainbowSpeed": 1,
-  "TitlebarColor.ColorTitlebar": 0,
-  "TitlebarColor.RainbowTitlebar": 0,
-  "TitlebarColor.titlerbarstyles_active": "FF0000",
-  "TitlebarColor.titlerbarstyles_inactive": "00FFFF",
-  "TitlebarTextColor.ColorTitlebarText": 0,
-  "TitlebarTextColor.RainbowTextColor": 0,
-  "TitlebarTextColor.titlerbarcolorstyles_active": "FF0000",
-  "TitlebarTextColor.titlerbarcolorstyles_inactive": "00FFFF",
-  "BorderColor.ColorBorder": 0,
-  "BorderColor.RainbowBorder": 0,
-  "BorderColor.borderstyles_active": "FF0000",
-  "BorderColor.borderstyles_inactive": "00FFFF",
-  "RuledPrograms[0].target": "",
-  "RuledPrograms[0].RenderingMod.ThemeBackground": 0,
-  "RuledPrograms[0].RenderingMod.AccentColorControls": 0,
-  "RuledPrograms[0].type": "",
-  "RuledPrograms[0].AccentBlurBehind": "",
-  "RuledPrograms[0].ImmersiveDarkTitle": 0,
-  "RuledPrograms[0].ExtendFrame": 0,
-  "RuledPrograms[0].CornerOption": "",
-  "RuledPrograms[0].RainbowSpeed": 0,
-  "RuledPrograms[0].TitlebarColor.ColorTitlebar": 0,
-  "RuledPrograms[0].TitlebarColor.RainbowTitlebar": 0,
-  "RuledPrograms[0].TitlebarColor.titlerbarstyles_active": "",
-  "RuledPrograms[0].TitlebarColor.titlerbarstyles_inactive": "",
-  "RuledPrograms[0].TitlebarTextColor.ColorTitlebarText": 0,
-  "RuledPrograms[0].TitlebarTextColor.RainbowTextColor": 0,
-  "RuledPrograms[0].TitlebarTextColor.titlerbarcolorstyles_active": "",
-  "RuledPrograms[0].TitlebarTextColor.titlerbarcolorstyles_inactive": "",
-  "RuledPrograms[0].BorderColor.ColorBorder": 0,
-  "RuledPrograms[0].BorderColor.RainbowBorder": 0,
-  "RuledPrograms[0].BorderColor.borderstyles_active": "",
-  "RuledPrograms[0].BorderColor.borderstyles_inactive": ""
-}
-```
-
 </details>

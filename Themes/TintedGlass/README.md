@@ -234,7 +234,7 @@ Add these to your start-up folder to apply your accent colors throughout windows
 
 ## Theme selection
 
-The theme is integrated into the mod and can simply be selected from the mod's
+The theme is integrated into the mod and can be selected directly from the mod's
 settings:
 
 * Open the Windows 11 File Explorer Styler mod in Windhawk.

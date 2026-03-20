@@ -99,6 +99,7 @@ File Explorer Styler mod. The following themes are available:
 | [WindowGlass](Themes/WindowGlass/README.md) | [![WindowGlass](Themes/WindowGlass/screenshot-small.png)](Themes/WindowGlass/screenshot.png)
 | [AddressSearchOnly](Themes/AddressSearchOnly/README.md) | [![AddressSearchOnly](Themes/AddressSearchOnly/screenshot-small.png)](Themes/AddressSearchOnly/screenshot.png)
 | [TintedGlass](Themes/TintedGlass/README.md) | [![TintedGlass](Themes/TintedGlass/screenshot-small.png)](Themes/TintedGlass/screenshot.png)
+| [LiquidGlass](Themes/LiquidGlass/README.md) | [![LiquidGlass](Themes/LiquidGlass/preview-small.png)](Themes/LiquidGlass/preview-full.png)
 
 ## Explorer frame container height
 

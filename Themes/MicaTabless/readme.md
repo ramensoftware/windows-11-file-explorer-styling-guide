@@ -2,6 +2,10 @@
 a Theme that adds Mica Backdrop to Top Toolbars, and Visually Removes Tab Switcher at the Same Time!
 Bonus : if you have MicaForEveryone or Translucent Backdrops Windhawk Mod, even the Details/Preview Panel has your Backdrop of Choice :D
 
+Preview is Full-Size to include the Details/Preview Pane
+
+<img width="1720" height="880" alt="image" src="https://github.com/user-attachments/assets/1504d478-6cd3-42e6-8b00-093d8f540787" />
+
 <details>
 <summary>Content to import (click to expand)</summary>
 

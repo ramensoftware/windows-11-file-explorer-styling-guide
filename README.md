@@ -103,7 +103,9 @@ File Explorer Styler mod. The following themes are available:
 
 ## Explorer frame container height
 
-The height of the explorer frame container, which includes the tabs, the address bar, and the command bar; set it to zero to use the default height.
+The height of the explorer frame container, which includes the tabs, the address
+bar, and the command bar; set it to zero to use the default height. The height
+can be adjusted in the mod settings.
 
 ## Tab
 

@@ -184,7 +184,7 @@ The theme styles can also be imported manually. To do that, follow these steps:
   "controlStyles[35].target": "StackPanel#DetailsViewThumbnail",
   "controlStyles[34].styles[0]": "Background:=Transparent",
   "controlStyles[35].styles[0]": "Background:=Transparent",
-  "styleConstants[1]": "Background=<WindhawkBlur BlurAmount=\"15\" TintColor=\"{ThemeResource SystemChromeAltHighColor}\" TintOpacity=\"0.2\" />",
+  "styleConstants[1]": "Background=<WindhawkBlur BlurAmount=\"15\" TintColor=\"{ThemeResource SystemChromeAltHighColor}\" TintOpacity=\"0.4\" />",
   "styleConstants[2]": "ElementBackground=<WindhawkBlur BlurAmount=\"20\" TintColor=\"{ThemeResource SystemChromeAltHighColor}\" TintOpacity=\"0.4\" />",
   "styleConstants[3]": "ElementBackground2=<WindhawkBlur BlurAmount=\"20\" TintColor=\"{ThemeResource SystemChromeAltHighColor}\" TintOpacity=\"0.2\" />",
   "styleConstants[4]": "AccentBackground=<WindhawkBlur BlurAmount=\"15\" TintColor=\"{ThemeResource SystemAccentColor}\" TintOpacity=\"0.2\" />",

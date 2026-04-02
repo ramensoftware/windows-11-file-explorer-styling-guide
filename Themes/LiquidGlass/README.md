@@ -17,7 +17,7 @@
 
 ## Translucent Windows
 
-> [!NOTE] Make sure to change the "AccentBlurBehind color blend" setting to "#cccccc# if you are using this with Light themes
+> [!NOTE] Make sure to change the "AccentBlurBehind color blend" setting to "cccccccc if you are using this with Light themes
 
 The theme styles can also be imported manually. To do that, follow these steps:
 
@@ -51,8 +51,7 @@ The theme styles can also be imported manually. To do that, follow these steps:
   "BorderColor.ColorBorder": 0,
   "BorderColor.RainbowBorder": 0,
   "BorderColor.borderstyles_active": "",
-  "BorderColor.borderstyles_inactive": "",
-  "RuledPrograms[0].target": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe"
+  "BorderColor.borderstyles_inactive": ""
 }
 ```
 

@@ -4,68 +4,18 @@
 
 ### Requirements
 
-* **Windhawk Mods**:
-  * [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-explorer-styler)
-  * [Translucent Windows](https://windhawk.net/mods/translucent-windows)
+* [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-explorer-styler)
+* [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica/releases)
 
 ![Screenshot](screenshot.png)
 
-### Translucent Windows
+## ExplorerBlurMica
 
-* Open the "Translucent Windows" mod in Windhawk.
-* Go to the "Advanced" tab and copy the code below into the "Mod settings" box and click "Save".
-
-<details>
-<summary>Content to import (click to expand)</summary>
-
-```json
-{
-  "RenderingMod.ThemeBackground": 1,
-  "RenderingMod.SysColors": 1,
-  "RenderingMod.AccentColorControls": 1,
-  "type": "acrylicblur",
-  "AccentBlurBehind": "3A232323",
-  "FlyoutsEffects": 1,
-  "ImmersiveDarkTitle": 1,
-  "ExtendFrame": 1,
-  "CornerOption": "smallround",
-  "RainbowSpeed": 1,
-  "TitlebarColor.ColorTitlebar": 0,
-  "TitlebarColor.RainbowTitlebar": 0,
-  "TitlebarColor.titlerbarstyles_active": "FF0000",
-  "TitlebarColor.titlerbarstyles_inactive": "00FFFF",
-  "TitlebarTextColor.ColorTitlebarText": 0,
-  "TitlebarTextColor.RainbowTextColor": 0,
-  "TitlebarTextColor.titlerbarcolorstyles_active": "",
-  "TitlebarTextColor.titlerbarcolorstyles_inactive": "",
-  "BorderColor.ColorBorder": 0,
-  "BorderColor.RainbowBorder": 0,
-  "BorderColor.borderstyles_active": "",
-  "BorderColor.borderstyles_inactive": "",
-  "RuledPrograms[0].target": "",
-  "RuledPrograms[0].RenderingMod.ThemeBackground": 0,
-  "RuledPrograms[0].RenderingMod.AccentColorControls": 0,
-  "RuledPrograms[0].type": "",
-  "RuledPrograms[0].AccentBlurBehind": "",
-  "RuledPrograms[0].ImmersiveDarkTitle": 0,
-  "RuledPrograms[0].ExtendFrame": 0,
-  "RuledPrograms[0].CornerOption": "",
-  "RuledPrograms[0].RainbowSpeed": 0,
-  "RuledPrograms[0].TitlebarColor.ColorTitlebar": 0,
-  "RuledPrograms[0].TitlebarColor.RainbowTitlebar": 0,
-  "RuledPrograms[0].TitlebarColor.titlerbarstyles_active": "",
-  "RuledPrograms[0].TitlebarColor.titlerbarstyles_inactive": "",
-  "RuledPrograms[0].TitlebarTextColor.ColorTitlebarText": 0,
-  "RuledPrograms[0].TitlebarTextColor.RainbowTextColor": 0,
-  "RuledPrograms[0].TitlebarTextColor.titlerbarcolorstyles_active": "",
-  "RuledPrograms[0].TitlebarTextColor.titlerbarcolorstyles_inactive": "",
-  "RuledPrograms[0].BorderColor.ColorBorder": 0,
-  "RuledPrograms[0].BorderColor.RainbowBorder": 0,
-  "RuledPrograms[0].BorderColor.borderstyles_active": "",
-  "RuledPrograms[0].BorderColor.borderstyles_inactive": ""
-}
-```
-</details>
+* Download "ExploererBlurMica" from the requirements link above.
+* Extract the contents of the zip fiel to a location of your choice.
+* Open the "register.cmd" file in a text editor and edit the path for the "ExplorerBlurMica.dll" file to fix a current path issue with the script.
+* Open the "uninstall.cmd" file in a text editor and edit the path for the "ExplorerBlurMica.dll" file to fix a current path issue with the script.
+* Run the "register.cmd" file to start the ExplorerBlurMica service.
 
 ## Theme selection
 
@@ -209,4 +159,5 @@ The theme styles can also be imported manually. To do that, follow these steps:
   "controlStyles[35].styles[0]": "Background:=Transparent"
 }
 ```
+
 </details>

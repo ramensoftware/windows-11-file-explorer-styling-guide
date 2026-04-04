@@ -79,7 +79,6 @@ The theme styles can also be imported manually. To do that, follow these steps:
 
 ```json
 {
-  "backgroundTranslucentEffect": "",
   "controlStyles[0].target": "Microsoft.UI.Xaml.Controls.Grid#PART_LayoutRoot",
   "controlStyles[0].styles[0]": "Background=Transparent",
   "explorerFrameContainerHeight": 87,

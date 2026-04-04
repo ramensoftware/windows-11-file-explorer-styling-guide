@@ -50,15 +50,14 @@ The theme styles can be imported manually. To do that, follow these steps:
   "controlStyles[13].styles[0]":"Margin=0,0,4,0",
 "controlStyles[14].target":"Microsoft.UI.Xaml.Controls.TabViewItem",
   "controlStyles[14].styles[0]":"Margin=0,-8,0,0",
-"explorerFrameContainerHeight":0,
 "controlStyles[15].target":"Microsoft.UI.Xaml.Controls.Grid#NavigationBarControlGrid",
   "controlStyles[15].styles[0]":"Background=Transparent",
 "controlStyles[16].target":" Microsoft.UI.Xaml.Controls.Grid#DetailsViewControlRootGrid",
   "controlStyles[16].styles[0]":"Background=Transparent",
 "controlStyles[17].target":"Microsoft.UI.Xaml.Controls.AppBarSeparator",
-  "controlStyles[17].styles[0]":"Opcaity=0"
+  "controlStyles[17].styles[0]":"//Opacity=0",
 "styleConstants[0]":"NavigationBarGrid=1",
-"styleConstants[1]":"CommandBarGrid=2",
+"styleConstants[1]":"CommandBarGrid=2"
 }
 ```
 </details>

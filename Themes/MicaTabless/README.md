@@ -1,8 +1,8 @@
 # MicaTabless theme for Windows 11 File Explorer Styler
 
-Theme that adds your backdrop of choice to top toolbars and preview/details pane, and (visually) removes tab switcher.
-Bonus : if you have MicaForEveryone or Translucent Backdrops Windhawk Mod, The file explorer UI and the preview/details will also have a matching backdrop.
-screenshot is Full-Size to also show the preview/details pane.
+Theme that adds your backdrop of choice to top toolbars and preview/details pane, and (visually) removes the tab switcher.
+Bonus: if you have MicaForEveryone or Translucent Backdrops Windhawk mod, the File Explorer UI and the preview/details pane will also have a matching backdrop.
+Screenshot is full-size to also show the preview/details pane.
 
 **Author**: [Ali Cool](https://github.com/AliCool412)
 

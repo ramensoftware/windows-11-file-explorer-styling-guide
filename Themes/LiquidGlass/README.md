@@ -195,8 +195,7 @@ The theme styles can also be imported manually. To do that, follow these steps:
   "styleConstants[10]": "ElementCornerRadius=8",
   "controlStyles[3].styles[3]": "CornerRadius=$ElementCornerRadius",
   "controlStyles[5].styles[3]": "Margin=4,0",
-  "controlStyles[6].styles[3]": "Margin=4,0",
-  "backgroundTranslucentEffectRegion": "entireWindow"
+  "controlStyles[6].styles[3]": "Margin=4,0"
 }
 ```
 

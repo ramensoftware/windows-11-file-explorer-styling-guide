@@ -198,5 +198,4 @@ The theme styles can also be imported manually. To do that, follow these steps:
   "controlStyles[6].styles[3]": "Margin=4,0"
 }
 ```
-
 </details>

@@ -193,9 +193,7 @@ The theme styles can also be imported manually. To do that, follow these steps:
   "controlStyles[34].styles[0]": "Background:=Transparent",
   "controlStyles[35].target": "StackPanel#DetailsViewThumbnail",
   "controlStyles[35].styles[0]": "Background:=Transparent",
-  "themeResourceVariables[0]": "",
-  "explorerFrameContainerHeight": 87,
-  "xamlDiagnosticsHandling": ""
+  "explorerFrameContainerHeight": 87
 }
 ```
 </details>

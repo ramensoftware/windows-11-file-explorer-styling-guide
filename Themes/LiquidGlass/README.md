@@ -17,7 +17,8 @@
 
 ## Translucent Windows
 
-> [!NOTE] Make sure to change the "AccentBlurBehind color blend" setting to "cccccccc" if you are using this with Light themes.
+> [!NOTE]
+>  Make sure to change the "AccentBlurBehind color blend" setting to "cccccccc" if you are using this with Light themes.
 
 To import the mod settings, follow these steps:
 

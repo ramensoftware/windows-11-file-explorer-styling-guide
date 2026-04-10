@@ -18,13 +18,13 @@
 ## Translucent Windows
 
 > [!NOTE]
->  Make sure to change the "AccentBlurBehind color blend" setting to "cccccccc" if you are using this with Light themes.
+> Make sure to change the "AccentBlurBehind color blend" setting to "cccccccc" if you are using this with Light themes.
 
 To import the mod settings, follow these steps:
 
-* Open the Translucent Windows mod in Windhawk.
-* Go to the "Advanced" tab.
-* Copy the content below to the text box under "Mod settings" and click "Save".
+* Open the "Translucent Windows" mod in Windhawk.
+* Go to the "Settings" tab and select "Textual mode".
+* Copy the content below to the text box and click "Save settings".
 
 <details>
 <summary>Content to import (click to expand)</summary>
@@ -99,8 +99,8 @@ settings:
 The theme styles can also be imported manually. To do that, follow these steps:
 
 * Open the Windows 11 File Explorer Styler mod in Windhawk.
-* Go to the "Advanced" tab.
-* Copy the content below to the text box under "Mod settings" and click "Save".
+* Go to the "Settings" tab and select "Textual mode".
+* Copy the content below to the text box and click "Save settings".
 
 <details>
 <summary>Content to import (click to expand)</summary>

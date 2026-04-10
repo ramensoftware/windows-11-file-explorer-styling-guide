@@ -13,7 +13,7 @@ To achieve similar results, install and configure the following Windhawk mods in
 - Translucent Windows
 
 <details>
-<summary>Click to expand JSON content</summary>
+<summary>Click to expand mod settings</summary>
 
 ```yaml
 RenderingMod:
@@ -112,7 +112,7 @@ To achieve the full look, install and configure the following Windhawk mods in a
 - Taskbar Clock Customization – for styling the clock. You will need to add your weather location if you have the desire to use that function and may need to change date formatting if you wish.
 
 <details>
-<summary>Click to expand JSON content</summary>
+<summary>Click to expand mod settings</summary>
 
 ```yaml
 ShowSeconds: 1
@@ -188,7 +188,7 @@ DataCollectionUpdateInterval: 1
 - Taskbar Height and Icon Size
 
 <details>
-<summary>Click to expand JSON content</summary>
+<summary>Click to expand mod settings</summary>
 
 ```yaml
 TaskbarHeight: 40
@@ -204,7 +204,7 @@ TaskbarButtonWidthSmall: 32
 - Taskbar Labels for Windows 11
 
 <details>
-<summary>Click to expand JSON content</summary>
+<summary>Click to expand mod settings</summary>
 
 ```yaml
 mode: labelsWithoutCombining
@@ -245,7 +245,7 @@ labelForMultipleItems: '[%amount%] %name%'
 - Taskbar Background Helper
 
 <details>
-<summary>Click to expand JSON content</summary>
+<summary>Click to expand mod settings</summary>
 
 ```yaml
 backgroundStyle: blur
@@ -294,8 +294,8 @@ settings:
 The theme styles can also be imported manually. To do that, follow these steps:
 
 * Open the Windows 11 File Explorer Styler mod in Windhawk.
-* Go to the "Advanced" tab.
-* Copy the content below to the text box under "Mod settings" and click "Save".
+* Go to the "Settings" tab and select "Textual mode".
+* Copy the content below to the text box and click "Save settings".
 
 <details>
 <summary>Content to import (click to expand)</summary>

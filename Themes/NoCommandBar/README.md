@@ -26,14 +26,15 @@ The theme styles can also be imported manually. To do that, follow these steps:
 <details>
 <summary>Content to import (click to expand)</summary>
 
-```json
-{
-	"controlStyles[0].target": "FileExplorerExtensions.CommandBarControl",
-	"controlStyles[0].styles[0]": "Visibility=Collapsed",
-	"controlStyles[1].target": "FileExplorerExtensions.NavigationBarControl",
-	"controlStyles[1].styles[0]": "Grid.RowSpan=2",
-	"controlStyles[1].styles[1]": "Margin=0,0,0,1",
-	"explorerFrameContainerHeight": 87
-}
+```yaml
+controlStyles:
+  - target: FileExplorerExtensions.CommandBarControl
+    styles:
+      - Visibility=Collapsed
+  - target: FileExplorerExtensions.NavigationBarControl
+    styles:
+      - Grid.RowSpan=2
+      - Margin=0,0,0,1
+explorerFrameContainerHeight: 87
 ```
 </details>

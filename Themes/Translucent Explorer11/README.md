@@ -31,32 +31,40 @@ The theme styles can also be imported manually. To do that, follow these steps:
 <details>
 <summary>Content to import (click to expand)</summary>
 
-```json
-{
-  "backgroundTranslucentEffect": "acrylic",
-  "controlStyles[0].target": "Grid#CommandBarControlRootGrid",
-  "controlStyles[0].styles[0]": "Background=Transparent",
-  "controlStyles[0].styles[1]": "BorderThickness=0,0,0,1",
-  "controlStyles[0].styles[2]": "BorderBrush=#40A0A0A0",
-  "controlStyles[1].target": "CommandBar#FileExplorerCommandBar",
-  "controlStyles[1].styles[0]": "Background=Transparent",
-  "controlStyles[2].target": "Grid#NavigationBarControlGrid",
-  "controlStyles[2].styles[0]": "Background=Transparent",
-  "controlStyles[3].target": "TabViewItem > Grid#LayoutRoot > Canvas > Microsoft.UI.Xaml.Shapes.Path#SelectedBackgroundPath",
-  "controlStyles[3].styles[0]": "Fill=#40404040",
-  "controlStyles[4].target": "Grid#HomeViewRootGrid",
-  "controlStyles[4].styles[0]": "Background=Transparent",
-  "controlStyles[5].target": "FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid",
-  "controlStyles[5].styles[0]": "Background=Transparent",
-  "controlStyles[6].target": "Microsoft.UI.Xaml.Controls.Grid#GalleryRootGrid",
-  "controlStyles[6].styles[0]": "Background=Transparent",
-  "controlStyles[7].target": "ToolTip",
-  "controlStyles[7].styles[0]": "Background:=<AcrylicBrush TintColor=\"#121212\" Opacity=\"0.3\"/>",
-  "controlStyles[8].target": "Grid#DetailsViewControlRootGrid",
-  "controlStyles[8].styles[0]": "Background=Transparent",
-  "controlStyles[9].target": "StackPanel#DetailsViewThumbnail > Grid",
-  "controlStyles[9].styles[0]": "Background=Transparent",
-  "explorerFrameContainerHeight": 0
-}
+```yaml
+backgroundTranslucentEffect: acrylic
+controlStyles:
+  - target: Grid#CommandBarControlRootGrid
+    styles:
+      - Background=Transparent
+      - BorderThickness=0,0,0,1
+      - BorderBrush=#40A0A0A0
+  - target: CommandBar#FileExplorerCommandBar
+    styles:
+      - Background=Transparent
+  - target: Grid#NavigationBarControlGrid
+    styles:
+      - Background=Transparent
+  - target: TabViewItem > Grid#LayoutRoot > Canvas > Microsoft.UI.Xaml.Shapes.Path#SelectedBackgroundPath
+    styles:
+      - Fill=#40404040
+  - target: Grid#HomeViewRootGrid
+    styles:
+      - Background=Transparent
+  - target: FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid
+    styles:
+      - Background=Transparent
+  - target: Microsoft.UI.Xaml.Controls.Grid#GalleryRootGrid
+    styles:
+      - Background=Transparent
+  - target: ToolTip
+    styles:
+      - Background:=<AcrylicBrush TintColor="#121212" Opacity="0.3"/>
+  - target: Grid#DetailsViewControlRootGrid
+    styles:
+      - Background=Transparent
+  - target: StackPanel#DetailsViewThumbnail > Grid
+    styles:
+      - Background=Transparent
 ```
 </details>

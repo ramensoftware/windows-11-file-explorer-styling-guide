@@ -26,26 +26,32 @@ The theme styles can also be imported manually. To do that, follow these steps:
 <details>
 <summary>Content to import (click to expand)</summary>
 
-```json
-{
-  "controlStyles[0].target": "FileExplorerExtensions.NavigationBarControl",
-  "controlStyles[0].styles[0]": "Grid.Row=0",
-  "controlStyles[0].styles[1]": "Background=Transparent",
-  "controlStyles[0].styles[2]": "MinHeight=48",
-  "controlStyles[0].styles[3]": "Margin=0,26,0,1",
-  "controlStyles[1].target": "Grid#NavigationBarControlGrid",
-  "controlStyles[1].styles[0]": "Background=Transparent",
-  "controlStyles[2].target": "FileExplorerExtensions.FileExplorerTabControl",
-  "controlStyles[2].styles[0]": "Visibility=Collapsed",
-  "controlStyles[3].target": "AppBarButton#refreshButton",
-  "controlStyles[3].styles[0]": "Visibility=Collapsed",
-  "controlStyles[4].target": "AppBarButton#upButton",
-  "controlStyles[4].styles[0]": "Visibility=Collapsed",
-  "controlStyles[5].target": "AppBarButton#backButton",
-  "controlStyles[5].styles[0]": "Visibility=Collapsed",
-  "controlStyles[6].target": "AppBarButton#forwardButton",
-  "controlStyles[6].styles[0]": "Visibility=Collapsed",
-  "explorerFrameContainerHeight": 80
-}
+```yaml
+controlStyles:
+  - target: FileExplorerExtensions.NavigationBarControl
+    styles:
+      - Grid.Row=0
+      - Background=Transparent
+      - MinHeight=48
+      - Margin=0,26,0,1
+  - target: Grid#NavigationBarControlGrid
+    styles:
+      - Background=Transparent
+  - target: FileExplorerExtensions.FileExplorerTabControl
+    styles:
+      - Visibility=Collapsed
+  - target: AppBarButton#refreshButton
+    styles:
+      - Visibility=Collapsed
+  - target: AppBarButton#upButton
+    styles:
+      - Visibility=Collapsed
+  - target: AppBarButton#backButton
+    styles:
+      - Visibility=Collapsed
+  - target: AppBarButton#forwardButton
+    styles:
+      - Visibility=Collapsed
+explorerFrameContainerHeight: 80
 ```
 </details>

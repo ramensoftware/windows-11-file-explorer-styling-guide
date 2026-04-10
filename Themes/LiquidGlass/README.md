@@ -29,31 +29,59 @@ To import the mod settings, follow these steps:
 <details>
 <summary>Content to import (click to expand)</summary>
 
-```json
-{
-  "RenderingMod.ThemeBackground": 1,
-  "RenderingMod.SysColors": 1,
-  "RenderingMod.AccentColorControls": 1,
-  "type": "acrylicblur",
-  "AccentBlurBehind": "3A232323",
-  "FlyoutsEffects": 1,
-  "ImmersiveDarkTitle": 1,
-  "ExtendFrame": 1,
-  "CornerOption": "smallround",
-  "RainbowSpeed": 1,
-  "TitlebarColor.ColorTitlebar": 0,
-  "TitlebarColor.RainbowTitlebar": 0,
-  "TitlebarColor.titlerbarstyles_active": "FF0000",
-  "TitlebarColor.titlerbarstyles_inactive": "00FFFF",
-  "TitlebarTextColor.ColorTitlebarText": 0,
-  "TitlebarTextColor.RainbowTextColor": 0,
-  "TitlebarTextColor.titlerbarcolorstyles_active": "",
-  "TitlebarTextColor.titlerbarcolorstyles_inactive": "",
-  "BorderColor.ColorBorder": 0,
-  "BorderColor.RainbowBorder": 0,
-  "BorderColor.borderstyles_active": "",
-  "BorderColor.borderstyles_inactive": ""
-}
+```yaml
+RenderingMod:
+  ThemeBackground: 1
+  SysColors: 1
+  AccentColorControls: 1
+type: acrylicblur
+AccentBlurBehind: 3A232323
+FlyoutsEffects: 1
+ImmersiveDarkTitle: 1
+ExtendFrame: 1
+CornerOption: smallround
+RainbowSpeed: 1
+TitlebarColor:
+  ColorTitlebar: 0
+  RainbowTitlebar: 0
+  titlerbarstyles_active: FF0000
+  titlerbarstyles_inactive: 00FFFF
+TitlebarTextColor:
+  ColorTitlebarText: 0
+  RainbowTextColor: 0
+  titlerbarcolorstyles_active: ''
+  titlerbarcolorstyles_inactive: ''
+BorderColor:
+  ColorBorder: 0
+  RainbowBorder: 0
+  borderstyles_active: ''
+  borderstyles_inactive: ''
+RuledPrograms:
+  - target: mspaint.exe
+    RenderingMod:
+      ThemeBackground: 0
+      AccentColorControls: 0
+    type: none
+    AccentBlurBehind: 3A232323
+    ImmersiveDarkTitle: 0
+    ExtendFrame: 0
+    CornerOption: default
+    RainbowSpeed: 1
+    TitlebarColor:
+      ColorTitlebar: 0
+      RainbowTitlebar: 0
+      titlerbarstyles_active: FF0000
+      titlerbarstyles_inactive: 00FFFF
+    TitlebarTextColor:
+      ColorTitlebarText: 0
+      RainbowTextColor: 0
+      titlerbarcolorstyles_active: FF0000
+      titlerbarcolorstyles_inactive: 00FFFF
+    BorderColor:
+      ColorBorder: 0
+      RainbowBorder: 0
+      borderstyles_active: FF0000
+      borderstyles_inactive: 00FFFF
 ```
 </details>
 
@@ -77,124 +105,160 @@ The theme styles can also be imported manually. To do that, follow these steps:
 <details>
 <summary>Content to import (click to expand)</summary>
 
-```json
-{
-  "styleConstants[0]": "ContentBG=<SolidColorBrush Color=\"{ThemeResource SystemChromeAltHighColor}\" Opacity=\"1\" />",
-  "styleConstants[1]": "Background=<WindhawkBlur BlurAmount=\"15\" TintColor=\"{ThemeResource SystemAltLowColor}\" TintOpacity=\"0.2\" />",
-  "styleConstants[2]": "ElementBackground=<WindhawkBlur BlurAmount=\"20\" TintColor=\"{ThemeResource SystemAltLowColor}\" TintOpacity=\"0.4\" />",
-  "styleConstants[3]": "ElementBackground2=<WindhawkBlur BlurAmount=\"20\" TintColor=\"{ThemeResource SystemAltLowColor}\" TintOpacity=\"0.2\" />",
-  "styleConstants[4]": "AccentBackground=<WindhawkBlur BlurAmount=\"15\" TintColor=\"{ThemeResource SystemAccentColorLight1}\" TintOpacity=\"0.2\" />",
-  "styleConstants[5]": "BorderBrush=<LinearGradientBrush StartPoint=\"0,0\" EndPoint=\"0,1\"><GradientStop Color=\"#50808080\" Offset=\"0.0\" /><GradientStop Color=\"#50404040\" Offset=\"0.25\" /><GradientStop Color=\"#50808080\" Offset=\"1\" /></LinearGradientBrush>",
-  "styleConstants[6]": "ElementBorderBrush=<LinearGradientBrush StartPoint=\"0,0\" EndPoint=\"0,1\"><GradientStop Color=\"#50808080\" Offset=\"1\" /><GradientStop Color=\"#50606060\" Offset=\"0.15\" /></LinearGradientBrush>",
-  "styleConstants[7]": "BorderThickness=0.3,1,0.3,0.3",
-  "styleConstants[8]": "ElementBorderThickness=0.3,0.3,0.3,1",
-  "styleConstants[9]": "CornerRadius=12",
-  "styleConstants[10]": "ElementCornerRadius=8",
-  "controlStyles[0].target": "Microsoft.UI.Xaml.Controls.Grid#PART_LayoutRoot",
-  "controlStyles[0].styles[0]": "Background=Transparent",
-  "controlStyles[0].styles[1]": "HorizontalAlignment=Stretch",
-  "controlStyles[1].target": "FileExplorerExtensions.FirstCrumbStackPanelControl#FirstCrumbStackPanel",
-  "controlStyles[1].styles[0]": "Visibility=1",
-  "controlStyles[2].target": "Windows.UI.Xaml.Controls.Grid#RootCommandSearchGrid > Windows.UI.Xaml.Controls.Border#BorderElement",
-  "controlStyles[2].styles[0]": "Visibility=1",
-  "controlStyles[3].target": "Microsoft.UI.Xaml.Controls.Primitives.NavigationViewItemPresenter#NavigationViewItemPresenter > Microsoft.UI.Xaml.Controls.Grid#LayoutRoot",
-  "controlStyles[3].styles[0]": "BorderThickness=$ElementBorderThickness",
-  "controlStyles[3].styles[1]": "Background:=$ElementBackground",
-  "controlStyles[3].styles[2]": "BorderBrush:=$ElementBorder",
-  "controlStyles[3].styles[3]": "CornerRadius=$ElementCornerRadius",
-  "controlStyles[4].target": "Microsoft.UI.Xaml.Controls.Grid#NavigationBarControlGrid",
-  "controlStyles[4].styles[0]": "Background:=Transparent",
-  "controlStyles[4].styles[1]": "BorderBrush:=Transparent",
-  "controlStyles[5].target": "Microsoft.UI.Xaml.Controls.Grid#HomeViewRootGrid",
-  "controlStyles[5].styles[0]": "BorderBrush:=$ElementBorderBrush",
-  "controlStyles[5].styles[1]": "CornerRadius=$ElementCornerRadius",
-  "controlStyles[5].styles[2]": "BorderThickness=$ElementBorderThickness",
-  "controlStyles[5].styles[3]": "Margin=4,0",
-  "controlStyles[6].target": "FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid  ",
-  "controlStyles[6].styles[0]": "BorderBrush:=$ElementBorderBrush",
-  "controlStyles[6].styles[1]": "CornerRadius=$ElementCornerRadius",
-  "controlStyles[6].styles[2]": "BorderThickness=$ElementBorderThickness",
-  "controlStyles[6].styles[3]": "Margin=4,0",
-  "controlStyles[7].target": "FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid > Grid#GalleryRootGrid",
-  "controlStyles[7].styles[0]": "Background:=Transparent",
-  "controlStyles[8].target": "ToolTip",
-  "controlStyles[8].styles[0]": "BorderBrush:=$ElementBorderBrush",
-  "controlStyles[8].styles[1]": "BorderThickness=$ElementBorderThickness",
-  "controlStyles[8].styles[2]": "CornerRadius=$ElementCornerRadius",
-  "controlStyles[9].target": "Grid#TabContainerGrid > Border#LeftBottomBorderLine",
-  "controlStyles[9].styles[0]": "Visibility=1",
-  "controlStyles[10].target": "Grid#TabContainerGrid > Border#RightBottomBorderLine",
-  "controlStyles[10].styles[0]": "Visibility=1",
-  "controlStyles[11].target": "TabViewItem > Grid#LayoutRoot",
-  "controlStyles[11].styles[0]": "Margin=5",
-  "controlStyles[11].styles[1]": "Height=35",
-  "controlStyles[11].styles[2]": "BorderThickness=$ElementBorderThickness",
-  "controlStyles[11].styles[3]": "CornerRadius=$ElementCornerRadius",
-  "controlStyles[11].styles[4]": "BorderBrush:=$ElementBorderBrush",
-  "controlStyles[12].target": "TabViewItem > Grid#LayoutRoot > Canvas",
-  "controlStyles[12].styles[0]": "Visibility=1",
-  "controlStyles[13].target": "TabViewItem > Grid#LayoutRoot > Grid#TabContainer",
-  "controlStyles[13].styles[0]": "Background=Transparent",
-  "controlStyles[13].styles[1]": "BorderBrush=Transparent",
-  "controlStyles[14].target": "TabViewItem > Grid#LayoutRoot@CommonStates",
-  "controlStyles[14].styles[0]": "Background@Selected:=$ElementBackground",
-  "controlStyles[14].styles[1]": "Background@PointerOverSelected:=$AccentBackground",
-  "controlStyles[14].styles[2]": "Background@PointerOver:=$AccentBackground",
-  "controlStyles[14].styles[3]": "Background@Normal:=$ElementBackground",
-  "controlStyles[14].styles[4]": "Background@PressedSelected:=$ButtonBackground2",
-  "controlStyles[15].target": "Grid#TabContainerGrid > Border#LeftBottomBorderLine",
-  "controlStyles[15].styles[0]": "Visibility=1",
-  "controlStyles[16].target": "Grid#TabContainerGrid > Border#RightBottomBorderLine",
-  "controlStyles[16].styles[0]": "Visibility=1",
-  "controlStyles[17].target": "Microsoft.UI.Xaml.Controls.Border#BottomBorderLine",
-  "controlStyles[17].styles[0]": "Visibility=1",
-  "controlStyles[18].target": "Microsoft.UI.Xaml.Shapes.Path#LeftRadiusRenderArc",
-  "controlStyles[18].styles[0]": "Visibility=1",
-  "controlStyles[19].target": "Microsoft.UI.Xaml.Shapes.Path#RightRadiusRenderArc",
-  "controlStyles[19].styles[0]": "Visibility=1",
-  "controlStyles[20].target": "Microsoft.UI.Xaml.Controls.Grid#TabContainer",
-  "controlStyles[20].styles[0]": "Visibility=0",
-  "controlStyles[21].target": "Microsoft.UI.Xaml.Controls.Viewbox#IconBox",
-  "controlStyles[21].styles[0]": "Visibility=1",
-  "controlStyles[22].target": "CommandBarOverflowPresenter#SecondaryItemsControl > Grid#LayoutRoot",
-  "controlStyles[22].styles[0]": "Background:=$ElementBackground",
-  "controlStyles[22].styles[1]": "BorderThickness=$ElementBorderThickness",
-  "controlStyles[22].styles[2]": "BorderBrush:=$ElementBorderBrush",
-  "controlStyles[22].styles[3]": "CornerRadius=$ElementCornerRadius",
-  "controlStyles[23].target": "Microsoft.UI.Xaml.Controls.AutoSuggestBox#FileExplorerSearchBox > Microsoft.UI.Xaml.Controls.Grid#LayoutRoot > Microsoft.UI.Xaml.Controls.TextBox#TextBox",
-  "controlStyles[23].styles[0]": "CornerRadius=$ElementCornerRadius",
-  "controlStyles[23].styles[1]": "Background:=$ElementBackground",
-  "controlStyles[23].styles[2]": "BorderBrush:=$ElementBorderBrush",
-  "controlStyles[23].styles[3]": "BorderThickness=$ElementBorderThickness",
-  "controlStyles[24].target": "Microsoft.UI.Xaml.Controls.Grid#FileExplorerAddressBarGrid",
-  "controlStyles[24].styles[0]": "CornerRadius=$ElementCornerRadius",
-  "controlStyles[24].styles[1]": "Background:=$ElementBackground",
-  "controlStyles[24].styles[2]": "BorderBrush:=$ElementBorderBrush",
-  "controlStyles[24].styles[3]": "BorderThickness=$ElementBorderThickness",
-  "controlStyles[25].target": "Microsoft.UI.Xaml.Controls.AutoSuggestBox#PART_AutoSuggestBox > Microsoft.UI.Xaml.Controls.Grid#LayoutRoot > Microsoft.UI.Xaml.Controls.TextBox#TextBox",
-  "controlStyles[25].styles[0]": "CornerRadius=$ElementCornerRadius",
-  "controlStyles[26].target": "Microsoft.UI.Xaml.Controls.Grid#RootContainer",
-  "controlStyles[26].styles[0]": "Background:=Transparent",
-  "controlStyles[27].target": "Microsoft.UI.Xaml.Controls.Border > Microsoft.UI.Xaml.Controls.Button#AddButton",
-  "controlStyles[27].styles[0]": "RenderTransform:=<TranslateTransform Y=\"-8\" />",
-  "controlStyles[28].target": "Microsoft.UI.Xaml.Controls.TextBlock#TextLabel",
-  "controlStyles[28].styles[0]": "Visibility=1",
-  "controlStyles[29].target": "Microsoft.UI.Xaml.Controls.Grid#SubItemChevronPanel > Microsoft.UI.Xaml.Controls.FontIcon#SubItemChevron",
-  "controlStyles[29].styles[0]": "RenderTransform:=<TranslateTransform X=\"-5\" Y=\"12\" />",
-  "controlStyles[30].target": "TabViewItem > Grid#LayoutRoot",
-  "controlStyles[30].styles[0]": "Height = 28",
-  "controlStyles[31].target": "TabViewItem > Grid#LayoutRoot > Canvas",
-  "controlStyles[31].styles[0]": "Visibility=1",
-  "controlStyles[32].target": "FileExplorerExtensions.CommandBarControl",
-  "controlStyles[32].styles[0]": "Visibility=1",
-  "controlStyles[33].target": "FileExplorerExtensions.NavigationBarControl",
-  "controlStyles[33].styles[0]": "Grid.RowSpan=2",
-  "controlStyles[33].styles[1]": "Margin=0,0,0,1",
-  "controlStyles[34].target": "Grid#DetailsViewControlRootGrid",
-  "controlStyles[34].styles[0]": "Background:=Transparent",
-  "controlStyles[35].target": "StackPanel#DetailsViewThumbnail",
-  "controlStyles[35].styles[0]": "Background:=Transparent",
-  "explorerFrameContainerHeight": 87
-}
+```yaml
+styleConstants:
+  - ContentBG=<SolidColorBrush Color="{ThemeResource SystemChromeAltHighColor}" Opacity="1" />
+  - Background=<WindhawkBlur BlurAmount="15" TintColor="{ThemeResource SystemAltLowColor}" TintOpacity="0.2" />
+  - ElementBackground=<WindhawkBlur BlurAmount="20" TintColor="{ThemeResource SystemAltLowColor}" TintOpacity="0.4" />
+  - ElementBackground2=<WindhawkBlur BlurAmount="20" TintColor="{ThemeResource SystemAltLowColor}" TintOpacity="0.2" />
+  - AccentBackground=<WindhawkBlur BlurAmount="15" TintColor="{ThemeResource SystemAccentColorLight1}" TintOpacity="0.2" />
+  - BorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#50808080" Offset="0.0" /><GradientStop Color="#50404040" Offset="0.25" /><GradientStop Color="#50808080" Offset="1" /></LinearGradientBrush>
+  - ElementBorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="#50808080" Offset="1" /><GradientStop Color="#50606060" Offset="0.15" /></LinearGradientBrush>
+  - BorderThickness=0.3,1,0.3,0.3
+  - ElementBorderThickness=0.3,0.3,0.3,1
+  - CornerRadius=12
+  - ElementCornerRadius=8
+controlStyles:
+  - target: Microsoft.UI.Xaml.Controls.Grid#PART_LayoutRoot
+    styles:
+      - Background=Transparent
+      - HorizontalAlignment=Stretch
+  - target: FileExplorerExtensions.FirstCrumbStackPanelControl#FirstCrumbStackPanel
+    styles:
+      - Visibility=1
+  - target: Windows.UI.Xaml.Controls.Grid#RootCommandSearchGrid > Windows.UI.Xaml.Controls.Border#BorderElement
+    styles:
+      - Visibility=1
+  - target: Microsoft.UI.Xaml.Controls.Primitives.NavigationViewItemPresenter#NavigationViewItemPresenter > Microsoft.UI.Xaml.Controls.Grid#LayoutRoot
+    styles:
+      - BorderThickness=$ElementBorderThickness
+      - Background:=$ElementBackground
+      - BorderBrush:=$ElementBorder
+      - CornerRadius=$ElementCornerRadius
+  - target: Microsoft.UI.Xaml.Controls.Grid#NavigationBarControlGrid
+    styles:
+      - Background:=Transparent
+      - BorderBrush:=Transparent
+  - target: Microsoft.UI.Xaml.Controls.Grid#HomeViewRootGrid
+    styles:
+      - BorderBrush:=$ElementBorderBrush
+      - CornerRadius=$ElementCornerRadius
+      - BorderThickness=$ElementBorderThickness
+      - Margin=4,0
+  - target: 'FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid  '
+    styles:
+      - BorderBrush:=$ElementBorderBrush
+      - CornerRadius=$ElementCornerRadius
+      - BorderThickness=$ElementBorderThickness
+      - Margin=4,0
+  - target: FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid > Grid#GalleryRootGrid
+    styles:
+      - Background:=Transparent
+  - target: ToolTip
+    styles:
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+      - CornerRadius=$ElementCornerRadius
+  - target: Grid#TabContainerGrid > Border#LeftBottomBorderLine
+    styles:
+      - Visibility=1
+  - target: Grid#TabContainerGrid > Border#RightBottomBorderLine
+    styles:
+      - Visibility=1
+  - target: TabViewItem > Grid#LayoutRoot
+    styles:
+      - Margin=5
+      - Height=35
+      - BorderThickness=$ElementBorderThickness
+      - CornerRadius=$ElementCornerRadius
+      - BorderBrush:=$ElementBorderBrush
+  - target: TabViewItem > Grid#LayoutRoot > Canvas
+    styles:
+      - Visibility=1
+  - target: TabViewItem > Grid#LayoutRoot > Grid#TabContainer
+    styles:
+      - Background=Transparent
+      - BorderBrush=Transparent
+  - target: TabViewItem > Grid#LayoutRoot@CommonStates
+    styles:
+      - Background@Selected:=$ElementBackground
+      - Background@PointerOverSelected:=$AccentBackground
+      - Background@PointerOver:=$AccentBackground
+      - Background@Normal:=$ElementBackground
+      - Background@PressedSelected:=$ButtonBackground2
+  - target: Grid#TabContainerGrid > Border#LeftBottomBorderLine
+    styles:
+      - Visibility=1
+  - target: Grid#TabContainerGrid > Border#RightBottomBorderLine
+    styles:
+      - Visibility=1
+  - target: Microsoft.UI.Xaml.Controls.Border#BottomBorderLine
+    styles:
+      - Visibility=1
+  - target: Microsoft.UI.Xaml.Shapes.Path#LeftRadiusRenderArc
+    styles:
+      - Visibility=1
+  - target: Microsoft.UI.Xaml.Shapes.Path#RightRadiusRenderArc
+    styles:
+      - Visibility=1
+  - target: Microsoft.UI.Xaml.Controls.Grid#TabContainer
+    styles:
+      - Visibility=0
+  - target: Microsoft.UI.Xaml.Controls.Viewbox#IconBox
+    styles:
+      - Visibility=1
+  - target: CommandBarOverflowPresenter#SecondaryItemsControl > Grid#LayoutRoot
+    styles:
+      - Background:=$ElementBackground
+      - BorderThickness=$ElementBorderThickness
+      - BorderBrush:=$ElementBorderBrush
+      - CornerRadius=$ElementCornerRadius
+  - target: Microsoft.UI.Xaml.Controls.AutoSuggestBox#FileExplorerSearchBox > Microsoft.UI.Xaml.Controls.Grid#LayoutRoot > Microsoft.UI.Xaml.Controls.TextBox#TextBox
+    styles:
+      - CornerRadius=$ElementCornerRadius
+      - Background:=$ElementBackground
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+  - target: Microsoft.UI.Xaml.Controls.Grid#FileExplorerAddressBarGrid
+    styles:
+      - CornerRadius=$ElementCornerRadius
+      - Background:=$ElementBackground
+      - BorderBrush:=$ElementBorderBrush
+      - BorderThickness=$ElementBorderThickness
+  - target: Microsoft.UI.Xaml.Controls.AutoSuggestBox#PART_AutoSuggestBox > Microsoft.UI.Xaml.Controls.Grid#LayoutRoot > Microsoft.UI.Xaml.Controls.TextBox#TextBox
+    styles:
+      - CornerRadius=$ElementCornerRadius
+  - target: Microsoft.UI.Xaml.Controls.Grid#RootContainer
+    styles:
+      - Background:=Transparent
+  - target: Microsoft.UI.Xaml.Controls.Border > Microsoft.UI.Xaml.Controls.Button#AddButton
+    styles:
+      - RenderTransform:=<TranslateTransform Y="-8" />
+  - target: Microsoft.UI.Xaml.Controls.TextBlock#TextLabel
+    styles:
+      - Visibility=1
+  - target: Microsoft.UI.Xaml.Controls.Grid#SubItemChevronPanel > Microsoft.UI.Xaml.Controls.FontIcon#SubItemChevron
+    styles:
+      - RenderTransform:=<TranslateTransform X="-5" Y="12" />
+  - target: TabViewItem > Grid#LayoutRoot
+    styles:
+      - Height = 28
+  - target: TabViewItem > Grid#LayoutRoot > Canvas
+    styles:
+      - Visibility=1
+  - target: FileExplorerExtensions.CommandBarControl
+    styles:
+      - Visibility=1
+  - target: FileExplorerExtensions.NavigationBarControl
+    styles:
+      - Grid.RowSpan=2
+      - Margin=0,0,0,1
+  - target: Grid#DetailsViewControlRootGrid
+    styles:
+      - Background:=Transparent
+  - target: StackPanel#DetailsViewThumbnail
+    styles:
+      - Background:=Transparent
+explorerFrameContainerHeight: 87
 ```
 </details>

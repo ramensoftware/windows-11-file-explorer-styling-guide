@@ -43,7 +43,7 @@ styleConstants:
   - accentColor=<SolidColorBrush Color="{ThemeResource SystemAccentColorLight1}" />
   - accentColor2=<SolidColorBrush Color="{ThemeResource SystemAccentColorLight1}" Opacity="0.5" />
 controlStyles:
-  - target: 'CommandBar#FileExplorerCommandBar '
+  - target: CommandBar#FileExplorerCommandBar
     styles:
       - Background=Transparent
       - HorizontalAlignment  = 1
@@ -70,7 +70,7 @@ controlStyles:
       - Visibility=Collapsed
   - target: TabViewItem > Grid#LayoutRoot > Grid#TabContainer
     styles:
-      - 'Background = Transparent '
+      - Background = Transparent
       - BorderThickness = 0
   - target: TabViewItem > Grid#LayoutRoot@CommonStates
     styles:
@@ -86,11 +86,11 @@ controlStyles:
       - Margin = 0,0,0,3
   - target: Grid#CommandBarControlRootGrid
     styles:
-      - 'Background=Transparent '
+      - Background=Transparent
       - BorderThickness = 0
   - target: Grid#NavigationBarControlGrid
     styles:
-      - 'Background=Transparent '
+      - Background=Transparent
   - target: Grid#PART_LayoutRoot
     styles:
       - Background :=<SolidColorBrush Color="{ThemeResource SystemAccentColorLight1}" Opacity="0.4" />

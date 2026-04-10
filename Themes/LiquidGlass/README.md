@@ -145,7 +145,7 @@ controlStyles:
       - CornerRadius=$ElementCornerRadius
       - BorderThickness=$ElementBorderThickness
       - Margin=4,0
-  - target: 'FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid  '
+  - target: FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid
     styles:
       - BorderBrush:=$ElementBorderBrush
       - CornerRadius=$ElementCornerRadius

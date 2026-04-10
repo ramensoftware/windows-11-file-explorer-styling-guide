@@ -119,7 +119,7 @@ controlStyles:
       - BorderThickness=0
       - Margin=0,0,8,8
       - Background:=$MainContentBG
-  - target: 'FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid  '
+  - target: FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid
     styles:
       - BorderBrush:=$MainContentBG
       - CornerRadius=8

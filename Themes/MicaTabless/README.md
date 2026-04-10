@@ -86,7 +86,7 @@ controlStyles:
   - target: Microsoft.UI.Xaml.Controls.Grid#NavigationBarControlGrid
     styles:
       - Background=Transparent
-  - target: ' Microsoft.UI.Xaml.Controls.Grid#DetailsViewControlRootGrid'
+  - target: Microsoft.UI.Xaml.Controls.Grid#DetailsViewControlRootGrid
     styles:
       - Background=Transparent
   - target: Microsoft.UI.Xaml.Controls.AppBarSeparator

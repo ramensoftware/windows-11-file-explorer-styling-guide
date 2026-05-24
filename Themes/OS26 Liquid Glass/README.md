@@ -2,10 +2,7 @@
 
 This theme modifies key elements in the Windows 11 File Explorer to achieve a sleek, premium OS26 inspired Liquid Glass aesthetic with stylized elements.
 ## Previews
-Explorer:
 ![Theme Preview](preview.png)
-Context Menu:
-![Context Menu](context_menu.png)
 ---
 
 ## Support for Light Mode

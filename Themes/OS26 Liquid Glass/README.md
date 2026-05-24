@@ -3,6 +3,7 @@
 This theme modifies key elements in the Windows 11 File Explorer to achieve a sleek, premium OS26 inspired Liquid Glass aesthetic with stylized elements.
 ## Explorer Previews
 ![preview1](screenshot.png)
+
 <img width="1187" height="651" alt="image" src="https://github.com/user-attachments/assets/3fbca75d-ed2c-4f7e-b1da-34eae2434515" />
 
 

@@ -3,15 +3,19 @@
 This theme modifies key elements in the Windows 11 File Explorer to achieve a sleek, premium OS26 inspired Liquid Glass aesthetic with stylized elements.
 ## Explorer Previews
 ![preview1](screenshot.png)
+<img width="1187" height="651" alt="image" src="https://github.com/user-attachments/assets/3fbca75d-ed2c-4f7e-b1da-34eae2434515" />
+
 
 ## Context Menu Previews
 ![Context Menu](Context_menu.png)
+<img width="307" height="412" alt="image" src="https://github.com/user-attachments/assets/1302c216-72f9-4689-b3d2-a129a3ec30a3" />
+
 
 ## Support for Light Mode
 
 Unfortunately, this mode do not work appropriately with the Light Mode. in the light mode, the ui elements will not contrast with the background and the style won't look any good.
 
-## Blurbehind Requirements
+## BlurBehind Requirements
 
 To achieve the translucent effect in Explorer shown in the preview, you will need an external background blur tool:
 

@@ -9,7 +9,8 @@ This theme modifies key elements in the Windows 11 File Explorer to achieve a sl
 
 ## Support for Light Mode
 
-Unfortunately, this mode do not work appropriately with the Light Mode. in the light mode, 
+Unfortunately, this mode do not work appropriately with the Light Mode. in the light mode, the ui elements will not contrast with the background and the style won't look any good.
+
 ## Blurbehind Requirements
 
 To achieve the translucent effect in Explorer shown in the preview, you will need an external background blur tool:
@@ -22,9 +23,11 @@ If translucent background makes text hard to read on light backgrounds, you can 
 Here is the preview of the codes that can be used:-
 
 * **Tint Code 1:** `B31A1A1A`  
-  ![Tint 1 Preview](preview_tint1.png)
-* **Tint Code 2:** `B32A2A2A`  
-  ![Tint 2 Preview](preview_tint2.png)
+  Preview: <img width="1324" height="702" alt="image" src="https://github.com/user-attachments/assets/782347de-2f31-44d0-abaf-78794050f4e7" />
+
+* **Tint Code 2:** `761E1E1E`  
+  Preview: <img width="1310" height="691" alt="image" src="https://github.com/user-attachments/assets/f1d9114e-d801-4b4b-a7e9-c1bbabfdf41d" />
+
 
 ---
 

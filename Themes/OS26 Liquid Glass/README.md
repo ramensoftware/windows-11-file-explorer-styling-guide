@@ -4,6 +4,7 @@ This theme modifies key elements in the Windows 11 File Explorer to achieve a sl
 ## Explorer Previews
 ![preview1](Screenshot.png)
 
+## Context Menu Previews
 ![Context Menu](context_menu.png)
 
 ## Support for Light Mode

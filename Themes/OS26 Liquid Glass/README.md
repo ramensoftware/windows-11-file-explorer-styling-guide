@@ -8,6 +8,7 @@ This theme modifies key elements in the Windows 11 File Explorer to achieve a sl
 
 ## Context Menu Previews
 ![Context Menu](Context_menu.png)
+
 <img width="307" height="412" alt="image" src="https://github.com/user-attachments/assets/1302c216-72f9-4689-b3d2-a129a3ec30a3" />
 
 

@@ -1,8 +1,9 @@
-# OS26 Liquid Glass Explorer
+<img width="1187" height="640" alt="Screenshot 2026-05-24 224213" src="https://github.com/user-attachments/assets/67b68cf7-c6e4-4ea0-ba69-873c627a9099" /># OS26 Liquid Glass Explorer
 
 This theme modifies key elements in the Windows 11 File Explorer to achieve a sleek, premium OS26 inspired Liquid Glass aesthetic with stylized elements.
 ## Previews
 ![Theme Preview](preview.png)
+![Context Menu](context_menu.png)
 
 ## Support for Light Mode
 

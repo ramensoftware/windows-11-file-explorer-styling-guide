@@ -34,7 +34,7 @@ Here is the preview of the codes that can be used:-
 ## Theme Selection
 Once merged, this theme will be integrated natively into the mod configuration and can be toggled directly from the main dropdown menu in the mod settings.
 
-## Manual Installation / Testing
+## Manual Installation
 To test or apply this theme manually right now:
 1. Open the **Windows 11 File Explorer Styler** mod in Windhawk.
 2. Navigate to the **Settings** tab and toggle the viewing mode to **"Textual mode"**.

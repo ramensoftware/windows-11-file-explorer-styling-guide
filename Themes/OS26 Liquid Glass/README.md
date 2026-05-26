@@ -8,9 +8,9 @@ This theme modifies key elements in the Windows 11 File Explorer to achieve a sl
 
 
 ## Context Menu Previews
-![Context-Menu-1](Context-menu-1.png)
+![Context-Menu-1](context-menu-1.png)
 
-![Context-Menu-2](Context-menu-2.png)
+![Context-Menu-2](context-menu-2.png)
 
 ## Support for Light Mode
 

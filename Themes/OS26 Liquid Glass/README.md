@@ -2,20 +2,19 @@
 
 This theme modifies key elements in the Windows 11 File Explorer to achieve a sleek, premium OS26 inspired Liquid Glass aesthetic with stylized elements.
 ## Explorer Previews
-![preview1](screenshot.png)
+![preview-1](screenshot.png)
 
-<img width="1187" height="651" alt="image" src="https://github.com/user-attachments/assets/3fbca75d-ed2c-4f7e-b1da-34eae2434515" />
+![preview-2](screenshot-2.png)
 
 
 ## Context Menu Previews
-![Context Menu](Context_menu.png)
+![Context-Menu-1](Context-menu-1.png)
 
-<img width="307" height="412" alt="image" src="https://github.com/user-attachments/assets/1302c216-72f9-4689-b3d2-a129a3ec30a3" />
-
+![Context-Menu-2](Context-menu-2.png)
 
 ## Support for Light Mode
 
-Unfortunately, this mode do not work appropriately with the Light Mode. in the light mode, the ui elements will not contrast with the background and the style won't look any good.
+Unfortunately, this mod do not work appropriately with the Light Mode. In the light mode, the UI elements will not contrast with the background and the style won't look any good.
 
 ## BlurBehind Requirements
 
@@ -29,11 +28,16 @@ If translucent background makes text hard to read on light backgrounds, you can 
 Here is the preview of the codes that can be used:-
 
 * **Tint Code 1:** `761E1E1E`  
-  Preview: <img width="1324" height="702" alt="image" src="https://github.com/user-attachments/assets/782347de-2f31-44d0-abaf-78794050f4e7" />
+  Preview: 
+  ![tint-1](tint-1.png) 
 
 * **Tint Code 2:** `B31A1A1A`  
-  Preview: <img width="1310" height="691" alt="image" src="https://github.com/user-attachments/assets/f1d9114e-d801-4b4b-a7e9-c1bbabfdf41d" />
+  Preview: 
+  ![tint-2](tint-2.png) 
 
+* **Tint Code 3:(Default)** `3A232323`
+  Preview:
+  ![tint-3](tint-3.png) 
 
 ---
 

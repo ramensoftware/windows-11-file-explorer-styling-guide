@@ -36,6 +36,7 @@ Here is the preview of the codes that can be used:-
   ![tint-2](tint-2.png) 
 
 * **Tint Code 3:(Default)** `3A232323`
+
   Preview:
   ![tint-3](tint-3.png) 
 

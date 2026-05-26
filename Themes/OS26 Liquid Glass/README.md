@@ -27,11 +27,13 @@ To achieve the translucent effect in Explorer shown in the preview, you will nee
 If translucent background makes text hard to read on light backgrounds, you can add a custom AccentBlurBehind code in the settings page of the Translucent windows Mod!
 Here is the preview of the codes that can be used:-
 
-* **Tint Code 1:** `761E1E1E`  
+* **Tint Code 1:** `761E1E1E`
+
   Preview: 
   ![tint-1](tint-1.png) 
 
-* **Tint Code 2:** `B31A1A1A`  
+* **Tint Code 2:** `B31A1A1A`
+
   Preview: 
   ![tint-2](tint-2.png) 
 

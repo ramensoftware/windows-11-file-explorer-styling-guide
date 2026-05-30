@@ -1,4 +1,4 @@
-# OS26 Liquid Glass Explorer
+# OS26 Liquid Glass theme for Windows 11 File Explorer Styler
 
 This theme modifies key elements in the Windows 11 File Explorer to achieve a sleek, premium OS26 inspired Liquid Glass aesthetic with stylized elements.
 
@@ -6,7 +6,6 @@ This theme modifies key elements in the Windows 11 File Explorer to achieve a sl
 ![preview-1](screenshot.png)
 
 ![preview-2](screenshot-2.png)
-
 
 ## Context Menu Previews
 ![Context-Menu-1](context-menu-1.png)
@@ -55,10 +54,9 @@ To test or apply this theme manually right now:
 3. Clear the text area, copy the complete configuration block below, paste it inside, and hit **"Save settings"**.
 
 <details>
-<summary> Click to expand theme configuration code</summary>
+<summary>Content to import (click to expand)</summary>
 
 ```yaml
-explorerFrameContainerHeight: 0
 controlStyles:
   - target: "CommandBar#FileExplorerCommandBar"
     styles:
@@ -153,3 +151,5 @@ controlStyles:
   - target: "Microsoft.UI.Xaml.Controls.AppBarButton#refreshButton"
     styles:
       - Margin=0,9,9,0
+```
+</details>

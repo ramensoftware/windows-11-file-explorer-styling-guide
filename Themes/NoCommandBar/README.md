@@ -2,7 +2,7 @@
 
 A simple theme that removes the command bar from File Explorer.
 
-**Author**: [SandTechStuff](https://github.com/SandTechStuff)
+**Author**: [Sand216](https://github.com/Sand216)
 
 ![Screenshot](screenshot.png)
 

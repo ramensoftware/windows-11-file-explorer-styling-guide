@@ -2,7 +2,7 @@
 
 A theme that recreates the old 21H2-22H2 File Explorer command bar before tabs were added.
 
-**Author**: [SandTechStuff](https://github.com/SandTechStuff)
+**Author**: [Sand216](https://github.com/Sand216)
 
 ![Screenshot](screenshot.png)
 

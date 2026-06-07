@@ -1,5 +1,7 @@
 # OS26 Liquid Glass theme for Windows 11 File Explorer Styler
-author: [wasiabbas4pk](https://github.com/wasiabbas4pk)
+
+Author: [wasiabbas4pk](https://github.com/wasiabbas4pk)
+
 This theme modifies key elements in the Windows 11 File Explorer to achieve a sleek, premium OS26 inspired Liquid Glass aesthetic with stylized elements.
 
 ## Explorer Previews

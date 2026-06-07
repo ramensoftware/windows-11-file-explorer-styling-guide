@@ -101,7 +101,7 @@ File Explorer Styler mod. The following themes are available:
 | [TintedGlass](Themes/TintedGlass/README.md) | [![TintedGlass](Themes/TintedGlass/screenshot-small.png)](Themes/TintedGlass/screenshot.png)
 | [LiquidGlass](Themes/LiquidGlass/README.md) | [![LiquidGlass](Themes/LiquidGlass/screenshot-small.png)](Themes/LiquidGlass/screenshot.png)
 | [MicaTabless](Themes/MicaTabless/README.md) | [![MicaTabless](Themes/MicaTabless/screenshot-small.png)](Themes/MicaTabless/screenshot.png)
-| [OS26 Liquid Glass](Themes/OS26%20Liquid%20Glass/README.md) | [![OS26 Liquid Glass](Themes/OS26%20Liquid%20Glass/screenshot-small.png)](Themes/OS26%20Liquid%20Glass/screenshot.png)
+| [FrostedGlass](Themes/FrostedGlass/README.md) | [![FrostedGlass](Themes/FrostedGlass/screenshot-small.png)](Themes/FrostedGlass/screenshot.png)
 
 ## Explorer frame container height
 

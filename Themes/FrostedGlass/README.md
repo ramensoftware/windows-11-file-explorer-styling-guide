@@ -1,4 +1,4 @@
-# OS26 Liquid Glass theme for Windows 11 File Explorer Styler
+# FrostedGlass theme for Windows 11 File Explorer Styler
 
 Author: [wasiabbas4pk](https://github.com/wasiabbas4pk)
 

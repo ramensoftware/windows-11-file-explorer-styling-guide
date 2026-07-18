@@ -45,16 +45,22 @@ Here is a preview of the codes that can be used:
   
   ![tint-3](tint-3.png) 
 
----
+## Theme selection
 
-## Theme Selection
-Once merged, this theme will be integrated natively into the mod configuration and can be toggled directly from the main dropdown menu in the mod settings.
+The theme is integrated into the mod and can be selected directly from the mod's
+settings:
 
-## Manual Installation
-To test or apply this theme manually right now:
-1. Open the **Windows 11 File Explorer Styler** mod in Windhawk.
-2. Navigate to the **Settings** tab and toggle the viewing mode to **"Textual mode"**.
-3. Clear the text area, copy the complete configuration block below, paste it inside, and hit **"Save settings"**.
+* Open the Windows 11 File Explorer Styler mod in Windhawk.
+* Go to the "Settings" tab.
+* Select the theme and save the settings.
+
+## Manual installation
+
+The theme styles can also be imported manually. To do that, follow these steps:
+
+* Open the Windows 11 File Explorer Styler mod in Windhawk.
+* Go to the "Settings" tab and select "Textual mode".
+* Copy the content below to the text box and click "Save settings".
 
 <details>
 <summary>Content to import (click to expand)</summary>

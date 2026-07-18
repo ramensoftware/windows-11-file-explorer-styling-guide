@@ -7,7 +7,7 @@ Screenshot is full-size to also show the preview/details pane.
 **Author**: [Ali Cool](https://github.com/AliCool412)
 
 ![Screenshot](screenshot.png)
-<!--
+
 ## Theme selection
 
 The theme is integrated into the mod and can be selected directly from the mod's
@@ -20,10 +20,6 @@ settings:
 ## Manual installation
 
 The theme styles can also be imported manually. To do that, follow these steps:
--->
-## Manual installation
-
-The theme styles can be imported manually. To do that, follow these steps:
 
 * Open the Windows 11 File Explorer Styler mod in Windhawk.
 * Go to the "Settings" tab and select "Textual mode".

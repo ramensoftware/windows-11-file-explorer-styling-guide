@@ -1,4 +1,4 @@
-# Compact Explorer11 Style
+# Compact Explorer11 theme for Windows 11 File Explorer Styler
 
 Author: [WasiXGamer](https://github.com/wasixgamer)
 
@@ -8,7 +8,6 @@ This style modifies Windows 11 File Explorer to make it compact, and occupy less
 ![preview-1](screenshot.png)
 
 ![preview-2](screenshot-2.png)
-
 
 ## Context Menu Previews
 ![Context-Menu](context-menu.png)
@@ -58,14 +57,9 @@ To test or apply this theme manually right now:
 3. Clear the text area, copy the complete configuration block below, paste it inside, and hit **"Save settings"**.
 
 <details>
-<summary> Content to import (click to expand)</summary>
+<summary>Content to import (click to expand)</summary>
 
 ```yaml
-theme: ''
-backgroundTranslucentEffect: none
-backgroundTranslucentEffectRegion: entireWindow
-styleConstants:
-  - ''
 controlStyles:
   - target: Microsoft.UI.Xaml.Controls.Primitives.SuggestionsPopup
     styles:
@@ -340,7 +334,6 @@ controlStyles:
     styles:
       - Grid.RowSpan=2
 
-themeResourceVariables:
-  - ''
 explorerFrameContainerHeight: 87
-xamlDiagnosticsHandling: ''
+```
+</details>

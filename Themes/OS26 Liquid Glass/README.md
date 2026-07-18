@@ -1,4 +1,4 @@
-# OS26 Liquid Glass Explorer
+# OS26 Liquid Glass theme for Windows 11 File Explorer Styler
 
 **Author**: [WasiXGamer](https://github.com/wasixgamer)
 
@@ -85,11 +85,9 @@ To test or apply this theme manually right now:
 ### Default Configuration
 
 <details>
-<summary> Click to expand Default theme configuration code</summary>
+<summary>Content to import (click to expand)</summary>
 
 ```yaml
-styleConstants:
-  - ''
 controlStyles:
   - target: Grid#DetailsViewControlRootGrid
     styles:
@@ -264,17 +262,13 @@ controlStyles:
   - target: Microsoft.UI.Xaml.Controls.AppBarButton#refreshButton
     styles:
       - Margin=0,9,9,0
-themeResourceVariables:
-  - ''
-explorerFrameContainerHeight: 0
-xamlDiagnosticsHandling: ''
 ```
 </details>
 
 ### Compact Configuration
 
 <details>
-<summary> Click to expand Compact theme configuration code</summary>
+<summary>Content to import (click to expand)</summary>
 
 ```yaml
 controlStyles:
@@ -517,9 +511,6 @@ controlStyles:
   - target: FileExplorerExtensions.NavigationBarControl
     styles:
       - Grid.RowSpan=2
-themeResourceVariables:
-  - ''
 explorerFrameContainerHeight: 87
-xamlDiagnosticsHandling: ''
 ```
 </details>

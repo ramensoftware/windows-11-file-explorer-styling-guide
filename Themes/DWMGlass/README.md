@@ -12,7 +12,6 @@
 
 ---
 
-
 ![Screenshot](screenshot.png)
 
 ---
@@ -96,6 +95,7 @@ RuledPrograms:
       borderstyles_active: FF0000
       borderstyles_inactive: 00FFFF
 ```
+
 </details>
 
 ## Theme selection
@@ -274,4 +274,5 @@ controlStyles:
       - Background:=Transparent
 explorerFrameContainerHeight: 87
 ```
+
 </details>

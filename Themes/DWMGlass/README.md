@@ -8,7 +8,7 @@
 
 * [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-explorer-styler)
 * [Translucent Windows](https://windhawk.net/mods/translucent-windows)
-* [DWMBlurGlass](https://github.com/Maplespe/DWMBlurGlass) + [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica) *Optional*
+* [DWMBlurGlass](https://github.com/Maplespe/DWMBlurGlass) + [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica) ***(Optional)***
 
 ---
 
@@ -17,7 +17,7 @@
 
 ---
 
-## DWMBlurGlass + ExplorerBlurMica (Optional)
+## DWMBlurGlass + ExplorerBlurMica ***(Optional)***
 These programs work in place of Translucent Windows and offers improved support\functionality. 
 
 1. Download **DWMBlurGlass** from the [Releases](https://github.com/Maplespe/DWMBlurGlass/releases) page on their official GitHub and copy the files into a safe location *(example: `?:\Program Files\DWMBlurGlass\*`).

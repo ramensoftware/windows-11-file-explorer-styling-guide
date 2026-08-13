@@ -20,13 +20,13 @@
 ## DWMBlurGlass + ExplorerBlurMica ***(Optional)***
 These programs work in place of Translucent Windows and offers improved support\functionality. 
 
-1. Download **DWMBlurGlass** from the [Releases](https://github.com/Maplespe/DWMBlurGlass/releases) page on their official GitHub and copy the files into a safe location *(example: `?:\Program Files\DWMBlurGlass\*`).
-2. Download **ExplorerBlurMica** from the [Releases](https://github.com/Maplespe/ExplorerBlurMica/releases) page on their official GitHub and copy the files into a safe location *(example: `?:\Program Files\DWMBlurGlass\ExplorerBlurMica\*`).
-  a. Open the `config.ini` file and adjust the settings as desired.
-  b. Run the `register.cmd` file once finished with everything above.
-  c. Run the `DWMBlurGlass.exe` file hat was downloaded from step 1.
-     i. Navigate to the Symbols tab and click `Download` to download the required symbols for your system.
-     ii. Return to the `General` tab, and then click `install`.
+* Download **DWMBlurGlass** from the [Releases](https://github.com/Maplespe/DWMBlurGlass/releases) page on their official GitHub and copy the files into a safe location *(example: `?:\Program Files\DWMBlurGlass\*`).
+* Download **ExplorerBlurMica** from the [Releases](https://github.com/Maplespe/ExplorerBlurMica/releases) page on their official GitHub and copy the files into a safe location *(example: `?:\Program Files\DWMBlurGlass\ExplorerBlurMica\*`).
+  * Open the `config.ini` file and adjust the settings as desired.
+  * Run the `register.cmd` file once finished with everything above.
+  * Run the `DWMBlurGlass.exe` file hat was downloaded from step 1.
+    * Navigate to the Symbols tab and click `Download` to download the required symbols for your system.
+    * Return to the `General` tab, and then click `install`.
 
 ## Translucent Windows
 

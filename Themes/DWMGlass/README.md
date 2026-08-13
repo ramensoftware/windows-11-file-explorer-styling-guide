@@ -18,7 +18,7 @@
 ---
 
 ## DWMBlurGlass + ExplorerBlurMica ***(Optional)***
-These programs work in place of Translucent Windows and offers improved support\functionality. 
+These programs work in place of Translucent Windows and offer improved support\functionality. 
 
 * Download **DWMBlurGlass** from the [Releases](https://github.com/Maplespe/DWMBlurGlass/releases) page on their official GitHub and copy the files into a safe location *(example: `?:\Program Files\DWMBlurGlass\*`).*
 * Download **ExplorerBlurMica** from the [Releases](https://github.com/Maplespe/ExplorerBlurMica/releases) page on their official GitHub and copy the files into a safe location *(example: `?:\Program Files\DWMBlurGlass\ExplorerBlurMica\*`).*

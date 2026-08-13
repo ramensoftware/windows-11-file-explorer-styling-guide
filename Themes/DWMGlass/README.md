@@ -8,6 +8,7 @@
 
 * [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-explorer-styler)
 * [Translucent Windows](https://windhawk.net/mods/translucent-windows)
+* [DWMBlurGlass](https://github.com/Maplespe/DWMBlurGlass) + [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica) *Optional*
 
 ---
 
@@ -15,6 +16,17 @@
 ![Screenshot](screenshot.png)
 
 ---
+
+## DWMBlurGlass + ExplorerBlurMica (Optional)
+These programs work in place of Translucent Windows and offers improved support\functionality. 
+
+1. Download **DWMBlurGlass** from the [Releases](https://github.com/Maplespe/DWMBlurGlass/releases) page on their official GitHub and copy the files into a safe location *(example: `?:\Program Files\DWMBlurGlass\*`).
+2. Download **ExplorerBlurMica** from the [Releases](https://github.com/Maplespe/ExplorerBlurMica/releases) page on their official GitHub and copy the files into a safe location *(example: `?:\Program Files\DWMBlurGlass\ExplorerBlurMica\*`).
+  a. Open the `config.ini` file and adjust the settings as desired.
+  b. Run the `register.cmd` file once finished with everything above.
+  c. Run the `DWMBlurGlass.exe` file hat was downloaded from step 1.
+     i. Navigate to the Symbols tab and click `Download` to download the required symbols for your system.
+     ii. Return to the `General` tab, and then click `install`.
 
 ## Translucent Windows
 

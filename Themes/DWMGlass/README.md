@@ -120,6 +120,7 @@ The theme styles can also be imported manually. To do that, follow these steps:
 <summary>Content to import (click to expand)</summary>
 
 ```yaml
+theme: DWM Glass
 styleConstants:
   - ContentBG=<SolidColorBrush Color="{ThemeResource SystemChromeAltHighColor}" Opacity="1" />
   - Background=<WindhawkBlur BlurAmount="15" TintColor="{ThemeResource SystemAltLowColor}" TintOpacity="0.2" />

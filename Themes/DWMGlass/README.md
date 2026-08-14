@@ -121,6 +121,8 @@ The theme styles can also be imported manually. To do that, follow these steps:
 
 ```yaml
 theme: DWM Glass
+backgroundTranslucentEffect: acrylic
+backgroundTranslucentEffectRegion: entireWindow
 styleConstants:
   - ContentBG=<SolidColorBrush Color="{ThemeResource SystemChromeAltHighColor}" Opacity="1" />
   - Background=<WindhawkBlur BlurAmount="15" TintColor="{ThemeResource SystemAltLowColor}" TintOpacity="0.2" />
@@ -138,6 +140,35 @@ controlStyles:
     styles:
       - Background=Transparent
       - HorizontalAlignment=Stretch
+  - target: Grid#CommandBarControlRootGrid
+    styles:
+      - Background=Transparent
+      - BorderThickness=$BorderThickness
+      - BorderBrush=$BorderBrush
+  - target: CommandBar#FileExplorerCommandBar
+    styles:
+      - Background=Transparent
+  - target: Grid#NavigationBarControlGrid
+    styles:
+      - Background=Transparent
+  - target: Grid#HomeViewRootGrid
+    styles:
+      - Background=Transparent
+  - target: FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid
+    styles:
+      - Background=Transparent
+  - target: Microsoft.UI.Xaml.Controls.Grid#GalleryRootGrid
+    styles:
+      - Background=Transparent
+  - target: ToolTip
+    styles:
+      - Background:=<AcrylicBrush TintColor="#121212" Opacity="0.3"/>
+  - target: Grid#DetailsViewControlRootGrid
+    styles:
+      - Background=Transparent
+  - target: StackPanel#DetailsViewThumbnail > Grid
+    styles:
+      - Background=Transparent
   - target: FileExplorerExtensions.FirstCrumbStackPanelControl#FirstCrumbStackPanel
     styles:
       - Visibility=1
@@ -150,10 +181,6 @@ controlStyles:
       - Background:=$ElementBackground
       - BorderBrush:=$ElementBorder
       - CornerRadius=$ElementCornerRadius
-  - target: Microsoft.UI.Xaml.Controls.Grid#NavigationBarControlGrid
-    styles:
-      - Background:=Transparent
-      - BorderBrush:=Transparent
   - target: Microsoft.UI.Xaml.Controls.Grid#HomeViewRootGrid
     styles:
       - BorderBrush:=$ElementBorderBrush
@@ -166,9 +193,6 @@ controlStyles:
       - CornerRadius=$ElementCornerRadius
       - BorderThickness=$ElementBorderThickness
       - Margin=4,0
-  - target: FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid > Grid#GalleryRootGrid
-    styles:
-      - Background:=Transparent
   - target: ToolTip
     styles:
       - BorderBrush:=$ElementBorderBrush
@@ -190,10 +214,6 @@ controlStyles:
   - target: TabViewItem > Grid#LayoutRoot > Canvas
     styles:
       - Visibility=1
-  - target: TabViewItem > Grid#LayoutRoot > Grid#TabContainer
-    styles:
-      - Background=Transparent
-      - BorderBrush=Transparent
   - target: TabViewItem > Grid#LayoutRoot@CommonStates
     styles:
       - Background@Selected:=$ElementBackground
@@ -214,12 +234,6 @@ controlStyles:
     styles:
       - Visibility=1
   - target: Microsoft.UI.Xaml.Shapes.Path#RightRadiusRenderArc
-    styles:
-      - Visibility=1
-  - target: Microsoft.UI.Xaml.Controls.Grid#TabContainer
-    styles:
-      - Visibility=0
-  - target: Microsoft.UI.Xaml.Controls.Viewbox#IconBox
     styles:
       - Visibility=1
   - target: CommandBarOverflowPresenter#SecondaryItemsControl > Grid#LayoutRoot
@@ -243,9 +257,6 @@ controlStyles:
   - target: Microsoft.UI.Xaml.Controls.AutoSuggestBox#PART_AutoSuggestBox > Microsoft.UI.Xaml.Controls.Grid#LayoutRoot > Microsoft.UI.Xaml.Controls.TextBox#TextBox
     styles:
       - CornerRadius=$ElementCornerRadius
-  - target: Microsoft.UI.Xaml.Controls.Grid#RootContainer
-    styles:
-      - Background:=Transparent
   - target: Microsoft.UI.Xaml.Controls.Border > Microsoft.UI.Xaml.Controls.Button#AddButton
     styles:
       - RenderTransform:=<TranslateTransform Y="-8" />
@@ -268,13 +279,9 @@ controlStyles:
     styles:
       - Grid.RowSpan=2
       - Margin=0,0,0,1
-  - target: Grid#DetailsViewControlRootGrid
-    styles:
-      - Background:=Transparent
-  - target: StackPanel#DetailsViewThumbnail
-    styles:
-      - Background:=Transparent
+themeResourceVariables:
+  - ''
 explorerFrameContainerHeight: 87
+xamlDiagnosticsHandling: allow
 ```
-
 </details>

@@ -1,11 +1,12 @@
-# Float for Windows 11 File Explorer Styler
-A theme that gives Windows 11 File Explorer a floating adress bar along with floating tabs
+# Float theme for Windows 11 File Explorer Styler
+
+A theme that gives Windows 11 File Explorer a floating address bar along with floating tabs.
 
 **Author**: [Lerakei-0](https://github.com/Lerakei-0)
 
 ## Preview
-![Preview](Screenshot-light.png)
-![Preview](Screenshot-dark.png)
+![Preview](screenshot-light.png)
+![Preview](screenshot.png)
 
 ## Theme selection
 
@@ -28,11 +29,6 @@ The theme styles can also be imported manually. To do that, follow these steps:
 <summary>Content to import (click to expand)</summary>
 
 ```yaml
-theme: 'Float'
-backgroundTranslucentEffect: ''
-backgroundTranslucentEffectRegion: ''
-styleConstants:
-  - ''
 controlStyles:
   - target: TabViewItem > Grid#LayoutRoot@CommonStates
     styles:
@@ -105,7 +101,5 @@ themeResourceVariables:
   - Tab@Light=#ffffffff
   - Tab@Dark=#000000
 explorerFrameContainerHeight: 160
-xamlDiagnosticsHandling: ''
-
 ```
 </details>

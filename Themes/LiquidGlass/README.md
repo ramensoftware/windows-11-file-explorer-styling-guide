@@ -1,24 +1,34 @@
-# LiquidGlass (Legacy) theme for Windows 11 File Explorer Styler
+# LiquidGlass theme for Windows 11 File Explorer Styler
 
 **Author**: [PhantomNimbi](https://github.com/PhantomNimbi)
 
 ---
 
-### Requirements
+## Requirements
 
 * [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-explorer-styler)
 * [Translucent Windows](https://windhawk.net/mods/translucent-windows)
+* [DWMBlurGlass](https://github.com/Maplespe/DWMBlurGlass) + [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica) ***(Optional)***
 
 ---
-
-> [!NOTE]
-> This theme will be getting moved to [DWM Glass](../DWMGlass/README.md) in the future due to the new Liquid Glass theme being made by another author. Their theme is going in the direction this one was originally aimed and does a lot better than this one does. So it will be the future of the Liquid Glass theme going forward.
 
 ![Screenshot](screenshot.png)
 
 ---
 
-## Translucent Windows
+### DWMBlurGlass + ExplorerBlurMica ***(Optional)***
+
+These programs work in place of Translucent Windows and offer improved support\functionality. 
+
+* Download **DWMBlurGlass** from the [Releases](https://github.com/Maplespe/DWMBlurGlass/releases) page on their official GitHub and copy the files into a safe location *(example: `?:\Program Files\DWMBlurGlass\*`).*
+* Download **ExplorerBlurMica** from the [Releases](https://github.com/Maplespe/ExplorerBlurMica/releases) page on their official GitHub and copy the files into a safe location *(example: `?:\Program Files\DWMBlurGlass\ExplorerBlurMica\*`).*
+  * Open the `config.ini` file and adjust the settings as desired.
+  * Run the `register.cmd` file once finished with everything above.
+  * Run the `DWMBlurGlass.exe` file hat was downloaded from step 1.
+    * Navigate to the Symbols tab and click `Download` to download the required symbols for your system.
+    * Return to the `General` tab, and then click `install`.
+
+### Translucent Windows
 
 > [!NOTE]
 > Make sure to change the "AccentBlurBehind color blend" setting to "cccccccc" if you are using this with Light themes.
@@ -86,6 +96,7 @@ RuledPrograms:
       borderstyles_active: FF0000
       borderstyles_inactive: 00FFFF
 ```
+
 </details>
 
 ## Theme selection
@@ -109,6 +120,9 @@ The theme styles can also be imported manually. To do that, follow these steps:
 <summary>Content to import (click to expand)</summary>
 
 ```yaml
+theme: DWM Glass
+backgroundTranslucentEffect: acrylic
+backgroundTranslucentEffectRegion: entireWindow
 styleConstants:
   - ContentBG=<SolidColorBrush Color="{ThemeResource SystemChromeAltHighColor}" Opacity="1" />
   - Background=<WindhawkBlur BlurAmount="15" TintColor="{ThemeResource SystemAltLowColor}" TintOpacity="0.2" />
@@ -126,6 +140,35 @@ controlStyles:
     styles:
       - Background=Transparent
       - HorizontalAlignment=Stretch
+  - target: Grid#CommandBarControlRootGrid
+    styles:
+      - Background=Transparent
+      - BorderThickness=$BorderThickness
+      - BorderBrush=$BorderBrush
+  - target: CommandBar#FileExplorerCommandBar
+    styles:
+      - Background=Transparent
+  - target: Grid#NavigationBarControlGrid
+    styles:
+      - Background=Transparent
+  - target: Grid#HomeViewRootGrid
+    styles:
+      - Background=Transparent
+  - target: FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid
+    styles:
+      - Background=Transparent
+  - target: Microsoft.UI.Xaml.Controls.Grid#GalleryRootGrid
+    styles:
+      - Background=Transparent
+  - target: ToolTip
+    styles:
+      - Background:=<AcrylicBrush TintColor="#121212" Opacity="0.3"/>
+  - target: Grid#DetailsViewControlRootGrid
+    styles:
+      - Background=Transparent
+  - target: StackPanel#DetailsViewThumbnail > Grid
+    styles:
+      - Background=Transparent
   - target: FileExplorerExtensions.FirstCrumbStackPanelControl#FirstCrumbStackPanel
     styles:
       - Visibility=1
@@ -138,10 +181,6 @@ controlStyles:
       - Background:=$ElementBackground
       - BorderBrush:=$ElementBorder
       - CornerRadius=$ElementCornerRadius
-  - target: Microsoft.UI.Xaml.Controls.Grid#NavigationBarControlGrid
-    styles:
-      - Background:=Transparent
-      - BorderBrush:=Transparent
   - target: Microsoft.UI.Xaml.Controls.Grid#HomeViewRootGrid
     styles:
       - BorderBrush:=$ElementBorderBrush
@@ -154,9 +193,6 @@ controlStyles:
       - CornerRadius=$ElementCornerRadius
       - BorderThickness=$ElementBorderThickness
       - Margin=4,0
-  - target: FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid > Grid#GalleryRootGrid
-    styles:
-      - Background:=Transparent
   - target: ToolTip
     styles:
       - BorderBrush:=$ElementBorderBrush
@@ -178,10 +214,6 @@ controlStyles:
   - target: TabViewItem > Grid#LayoutRoot > Canvas
     styles:
       - Visibility=1
-  - target: TabViewItem > Grid#LayoutRoot > Grid#TabContainer
-    styles:
-      - Background=Transparent
-      - BorderBrush=Transparent
   - target: TabViewItem > Grid#LayoutRoot@CommonStates
     styles:
       - Background@Selected:=$ElementBackground
@@ -202,12 +234,6 @@ controlStyles:
     styles:
       - Visibility=1
   - target: Microsoft.UI.Xaml.Shapes.Path#RightRadiusRenderArc
-    styles:
-      - Visibility=1
-  - target: Microsoft.UI.Xaml.Controls.Grid#TabContainer
-    styles:
-      - Visibility=0
-  - target: Microsoft.UI.Xaml.Controls.Viewbox#IconBox
     styles:
       - Visibility=1
   - target: CommandBarOverflowPresenter#SecondaryItemsControl > Grid#LayoutRoot
@@ -231,9 +257,6 @@ controlStyles:
   - target: Microsoft.UI.Xaml.Controls.AutoSuggestBox#PART_AutoSuggestBox > Microsoft.UI.Xaml.Controls.Grid#LayoutRoot > Microsoft.UI.Xaml.Controls.TextBox#TextBox
     styles:
       - CornerRadius=$ElementCornerRadius
-  - target: Microsoft.UI.Xaml.Controls.Grid#RootContainer
-    styles:
-      - Background:=Transparent
   - target: Microsoft.UI.Xaml.Controls.Border > Microsoft.UI.Xaml.Controls.Button#AddButton
     styles:
       - RenderTransform:=<TranslateTransform Y="-8" />
@@ -256,12 +279,9 @@ controlStyles:
     styles:
       - Grid.RowSpan=2
       - Margin=0,0,0,1
-  - target: Grid#DetailsViewControlRootGrid
-    styles:
-      - Background:=Transparent
-  - target: StackPanel#DetailsViewThumbnail
-    styles:
-      - Background:=Transparent
+themeResourceVariables:
+  - ''
 explorerFrameContainerHeight: 87
+xamlDiagnosticsHandling: allow
 ```
 </details>

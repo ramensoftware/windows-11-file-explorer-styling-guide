@@ -120,7 +120,6 @@ The theme styles can also be imported manually. To do that, follow these steps:
 <summary>Content to import (click to expand)</summary>
 
 ```yaml
-theme: DWM Glass
 backgroundTranslucentEffect: acrylic
 backgroundTranslucentEffectRegion: entireWindow
 styleConstants:
@@ -279,8 +278,6 @@ controlStyles:
     styles:
       - Grid.RowSpan=2
       - Margin=0,0,0,1
-themeResourceVariables:
-  - ''
 explorerFrameContainerHeight: 87
 xamlDiagnosticsHandling: allow
 ```

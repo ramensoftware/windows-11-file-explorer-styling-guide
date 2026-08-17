@@ -279,6 +279,5 @@ controlStyles:
       - Grid.RowSpan=2
       - Margin=0,0,0,1
 explorerFrameContainerHeight: 87
-xamlDiagnosticsHandling: allow
 ```
 </details>

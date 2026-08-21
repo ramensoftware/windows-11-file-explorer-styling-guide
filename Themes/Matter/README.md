@@ -84,7 +84,7 @@ controlStyles:
     styles:
       - Visibility  = 0
       - Margin = 0,0,0,3
-  - target: Grid#CommandBarControlRootGrid
+  - target: FileExplorerExtensions.CommandBarControl_Wave1 > Grid, Grid#CommandBarControlRootGrid
     styles:
       - Background=Transparent
       - BorderThickness = 0

@@ -251,7 +251,7 @@ controlStyles:
       - Width=24
       - Height=24
 
-  - target: Grid#CommandBarControlRootGrid
+  - target: FileExplorerExtensions.CommandBarControl_Wave1 > Grid, Grid#CommandBarControlRootGrid
     styles:
       - Background:=
       - BorderBrush:=

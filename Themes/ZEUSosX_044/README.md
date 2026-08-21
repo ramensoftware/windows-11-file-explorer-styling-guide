@@ -83,7 +83,7 @@ The theme styles can also be imported manually. To do that, follow these steps:
 ```yaml
 backgroundTranslucentEffect: mica
 controlStyles:
-  - target: Microsoft.UI.Xaml.Controls.Grid#CommandBarControlRootGrid
+  - target: FileExplorerExtensions.CommandBarControl_Wave1 > Grid, Grid#CommandBarControlRootGrid
     styles:
       - Background=Transparent
       - BorderThickness=0

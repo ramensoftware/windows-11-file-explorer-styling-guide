@@ -199,7 +199,7 @@ Background:=<SolidColorBrush Color="Grey" TintOpacity="0.4"/>
 
 Targets:
 ```
-Grid#CommandBarControlRootGrid
+FileExplorerExtensions.CommandBarControl_Wave1 > Grid, Grid#CommandBarControlRootGrid
 
 CommandBar#FileExplorerCommandBar
 ```

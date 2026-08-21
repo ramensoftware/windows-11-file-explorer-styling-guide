@@ -33,7 +33,7 @@ styleConstants:
   - NavigationBarGrid=1
   - CommandBarGrid=2
 controlStyles:
-  - target: Microsoft.UI.Xaml.Controls.Grid#CommandBarControlRootGrid
+  - target: FileExplorerExtensions.CommandBarControl_Wave1 > Grid, Grid#CommandBarControlRootGrid
     styles:
       - Background=Transparent
   - target: Microsoft.UI.Xaml.Controls.Grid#ContentRoot
@@ -64,7 +64,7 @@ controlStyles:
     styles:
       - FontFamily=Segoe UI, Segoe Fluent Icons
       - FontWeight=Normal
-  - target: Microsoft.UI.Xaml.Controls.Grid#CommandBarControlRootGrid
+  - target: FileExplorerExtensions.CommandBarControl_Wave1 > Grid, Grid#CommandBarControlRootGrid
     styles:
       - BorderThickness=0,0,0,1
   - target: FileExplorerExtensions.FileExplorerTabControl

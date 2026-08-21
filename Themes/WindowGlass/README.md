@@ -77,7 +77,7 @@ controlStyles:
       - BorderThickness=$BorderThickness
       - Background:=$ButtonBackground
       - BorderBrush:=$ButtonBorder
-  - target: Microsoft.UI.Xaml.Controls.Grid#CommandBarControlRootGrid
+  - target: FileExplorerExtensions.CommandBarControl_Wave1 > Grid, Grid#CommandBarControlRootGrid
     styles:
       - Background=Transparent
       - BorderBrush=Transparent

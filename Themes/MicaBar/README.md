@@ -28,7 +28,7 @@ The theme styles can also be imported manually. To do that, follow these steps:
 
 ```yaml
 controlStyles:
-  - target: Grid#CommandBarControlRootGrid
+  - target: FileExplorerExtensions.CommandBarControl_Wave1 > Grid, Grid#CommandBarControlRootGrid
     styles:
       - Background:=<SolidColorBrush Color="{ThemeResource LayerOnMicaBaseAltFillColorDefault}"/>
       - BorderThickness=0,0,0,1

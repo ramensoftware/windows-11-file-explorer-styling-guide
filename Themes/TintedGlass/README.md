@@ -305,7 +305,7 @@ backgroundTranslucentEffect: acrylic
 styleConstants:
   - CommonBgBrush=<WindhawkBlur BlurAmount="18" TintColor="#80000000"/>
 controlStyles:
-  - target: Grid#CommandBarControlRootGrid
+  - target: FileExplorerExtensions.CommandBarControl_Wave1 > Grid, Grid#CommandBarControlRootGrid
     styles:
       - Background:=$CommonBgBrush
       - BorderThickness=0,0,0,0

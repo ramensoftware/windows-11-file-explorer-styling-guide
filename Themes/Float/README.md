@@ -84,7 +84,7 @@ controlStyles:
       - CornerRadius=6
       - Margin=8,4,8,0
       - Height=54
-  - target: Microsoft.UI.Xaml.Controls.Grid#CommandBarControlRootGrid
+  - target: FileExplorerExtensions.CommandBarControl_Wave1 > Grid, Grid#CommandBarControlRootGrid
     styles:
       - Margin=0,8,0,0
       - BorderThickness=0,1,0,1

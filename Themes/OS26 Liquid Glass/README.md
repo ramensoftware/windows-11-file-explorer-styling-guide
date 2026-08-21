@@ -229,7 +229,7 @@ controlStyles:
       - BorderThickness=1
       - Margin=2
       - BorderBrush:=<LinearGradientBrush StartPoint="0,0" EndPoint="1,1"><GradientStop Color="#80ffffff" Offset="0.0" /><GradientStop Color="{ThemeResource SurfaceStrokeColorDefault}" Offset="0.55" /><GradientStop Color="#80ffffff" Offset="1" /></LinearGradientBrush>
-  - target: FileExplorerExtensions.CommandBarControl
+  - target: FileExplorerExtensions.CommandBarControl_Wave1, FileExplorerExtensions.CommandBarControl
     styles:
       - Margin=0,0,0,0
   - target: AutoSuggestBox#FileExplorerSearchBox > Grid#LayoutRoot > TextBox > Grid@CommonStates > Border#BorderElement
@@ -458,7 +458,7 @@ controlStyles:
       - CornerRadius=10
       - BorderThickness=1
       - Margin=2
-  - target: FileExplorerExtensions.CommandBarControl
+  - target: FileExplorerExtensions.CommandBarControl_Wave1, FileExplorerExtensions.CommandBarControl
     styles:
       - Grid.Row=0
       - Grid.RowSpan=2

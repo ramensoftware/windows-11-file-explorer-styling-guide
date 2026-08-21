@@ -42,7 +42,7 @@ controlStyles:
   - target: FileExplorerExtensions.NavigationBarControl
     styles:
       - Grid.Row=$NavigationBarGrid
-  - target: FileExplorerExtensions.CommandBarControl
+  - target: FileExplorerExtensions.CommandBarControl_Wave1, FileExplorerExtensions.CommandBarControl
     styles:
       - Grid.Row=$CommandBarGrid
   - target: Microsoft.UI.Xaml.Controls.Grid#TabContainerGrid > Border

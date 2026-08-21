@@ -267,7 +267,7 @@ controlStyles:
       - BorderThickness=1
       - Margin=1
 
-  - target: FileExplorerExtensions.CommandBarControl
+  - target: FileExplorerExtensions.CommandBarControl_Wave1, FileExplorerExtensions.CommandBarControl
     styles:
       - Grid.Row=0
       - Grid.RowSpan=2

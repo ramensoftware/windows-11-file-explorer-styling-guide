@@ -96,7 +96,7 @@ controlStyles:
       - Background :=<SolidColorBrush Color="{ThemeResource SystemAccentColorLight1}" Opacity="0.4" />
       - CornerRadius = 6
       - BorderThickness = 0
-  - target: FileExplorerExtensions.CommandBarControl
+  - target: FileExplorerExtensions.CommandBarControl_Wave1, FileExplorerExtensions.CommandBarControl
     styles:
       - Margin = 0,-5,0,0
   - target: AutoSuggestBox#FileExplorerSearchBox > Grid#LayoutRoot > TextBox > Grid@CommonStates > Border#BorderElement

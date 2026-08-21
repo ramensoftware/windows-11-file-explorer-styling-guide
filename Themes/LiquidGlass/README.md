@@ -249,7 +249,7 @@ controlStyles:
   - target: TabViewItem > Grid#LayoutRoot > Canvas
     styles:
       - Visibility=1
-  - target: FileExplorerExtensions.CommandBarControl
+  - target: FileExplorerExtensions.CommandBarControl_Wave1, FileExplorerExtensions.CommandBarControl
     styles:
       - Visibility=1
   - target: FileExplorerExtensions.NavigationBarControl

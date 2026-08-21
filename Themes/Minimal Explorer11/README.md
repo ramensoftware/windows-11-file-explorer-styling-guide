@@ -49,7 +49,7 @@ controlStyles:
   - target: Border#BottomBorderLine
     styles:
       - Visibility=Collapsed
-  - target: FileExplorerExtensions.CommandBarControl
+  - target: FileExplorerExtensions.CommandBarControl_Wave1, FileExplorerExtensions.CommandBarControl
     styles:
       - Visibility=Collapsed
   - target: FileExplorerExtensions.AddressBarControl > Grid#PART_LayoutRoot > Grid#NormalModeGrid

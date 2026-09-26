@@ -1,7 +1,7 @@
 # MicaTabless theme for Windows 11 File Explorer Styler
 
 Theme that allows you to pick a backdrop for the entire window, also visually removes tab switcher.
-The screenshots below deemonstrates it with mica and acrylic respectively.
+The screenshots below demonstrates it with mica and acrylic respectively.
 
 **Author**: [Ali Cool](https://github.com/AliCool412)
 
@@ -94,9 +94,6 @@ controlStyles:
     styles:
       - Background:=
   - target: Microsoft.UI.Xaml.Controls.Grid#HomeViewRootGrid
-    styles:
-      - Background:=
-  - target: Microsoft.UI.Xaml.Controls.Grid#DetailsViewControlRootGrid
     styles:
       - Background:=
   - target: Microsoft.UI.Xaml.Controls.StackPanel#DetailsViewThumbnail > Microsoft.UI.Xaml.Controls.Grid

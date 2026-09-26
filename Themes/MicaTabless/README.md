@@ -1,12 +1,11 @@
 # MicaTabless theme for Windows 11 File Explorer Styler
 
-Theme that adds your backdrop of choice to top toolbars and preview/details pane, and (visually) removes the tab switcher.
-Bonus: if you have MicaForEveryone or Translucent Backdrops Windhawk mod, the File Explorer UI and the preview/details pane will also have a matching backdrop.
-Screenshot is full-size to also show the preview/details pane.
+Theme that allows you to pick a backdrop for the entire window, also visually removes tab switcher.
+The screenshots below deemonstrates it with mica and acrylic respectively.
 
 **Author**: [Ali Cool](https://github.com/AliCool412)
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot-mica.png)  ![Screenshot](screenshot-acrylic.png)
 
 ## Theme selection
 
@@ -87,6 +86,21 @@ controlStyles:
       - Background=Transparent
   - target: Microsoft.UI.Xaml.Controls.AppBarSeparator
     styles:
-      - //Opacity=0
+      - Opacity=0
+  - target: Microsoft.UI.Xaml.Controls.Grid#GalleryRootGrid
+    styles:
+      - Background:=
+  - target: FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Microsoft.UI.Xaml.Controls.Grid
+    styles:
+      - Background:=
+  - target: Microsoft.UI.Xaml.Controls.Grid#HomeViewRootGrid
+    styles:
+      - Background:=
+  - target: Microsoft.UI.Xaml.Controls.Grid#DetailsViewControlRootGrid
+    styles:
+      - Background:=
+  - target: Microsoft.UI.Xaml.Controls.StackPanel#DetailsViewThumbnail > Microsoft.UI.Xaml.Controls.Grid
+    styles:
+      - Background:=
 ```
 </details>

@@ -131,7 +131,7 @@ controlStyles:
       - Background:=$MainContentBG
   - target: ToolTip
     styles:
-      - Background:=$Background
+      - Background:=<AcrylicBrush TintColor="#15323232" Opacity="0.96"/>
   - target: Grid#TabContainerGrid > Border#LeftBottomBorderLine
     styles:
       - Visibility=Collapsed
@@ -199,7 +199,7 @@ controlStyles:
       - CornerRadius=$CornerRadius
   - target: CommandBarOverflowPresenter#SecondaryItemsControl > Grid#LayoutRoot
     styles:
-      - Background:=$Background
+      - Background:=<AcrylicBrush TintColor="#15323232" Opacity="0.96"/>
       - BorderThickness=$BorderThickness
       - BorderBrush:=$BorderBrush
       - CornerRadius=$CornerRadius

@@ -237,9 +237,6 @@ controlStyles:
   - target: Microsoft.UI.Xaml.Controls.Border > Microsoft.UI.Xaml.Controls.Button#AddButton
     styles:
       - RenderTransform:=<TranslateTransform Y="-8" />
-  - target: Microsoft.UI.Xaml.Controls.TextBlock#TextLabel
-    styles:
-      - Visibility=1
   - target: Microsoft.UI.Xaml.Controls.Grid#SubItemChevronPanel > Microsoft.UI.Xaml.Controls.FontIcon#SubItemChevron
     styles:
       - RenderTransform:=<TranslateTransform X="-5" Y="12" />

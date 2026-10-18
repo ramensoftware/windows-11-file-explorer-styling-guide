@@ -6,11 +6,10 @@
 
 ## Notes
 * This taskbar theme is designed to be used in dark mode.
+* The theme uses Acrylic as the background material by default. It can be changed with the mod's 'Translucent background effect' setting.
 
-## Required Windhawk mods for similar results
-To achieve similar results, install and configure the following Windhawk mods in addition to Windows 11 File Explorer Styler:
-
-- Translucent Windows
+## Translucent Windows settings (optional)
+To match the screenshot more closely, you can use the [Translucent Windows](https://windhawk.net/mods/translucent-windows) mod with the settings below instead. In this case, set the 'Translucent background effect' setting to 'Windows default'.
 
 <details>
 <summary>Click to expand mod settings</summary>

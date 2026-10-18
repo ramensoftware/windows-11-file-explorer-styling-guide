@@ -22,14 +22,7 @@ To get a more accurate look of the old command bar, you can use File Explorer St
 
     `CommandBarGrid=2`
 
-To restore regular Mica instead of MicaAlt on the command bar, you can use the Translucent Windows mod.
-
-1. Install the [Translucent Windows](https://windhawk.net/mods/translucent-windows) mod.
-<!-- 2. Disable "Immersive darkmode titlebar" -->
-<!-- Current version of the mod in the repo does not have this option -->
-2. Scroll down to "Process Rules".
-3. In the "Process" box, type `explorer.exe`.
-4. In the "Effects" dropdown, select `Mica`.
+To restore regular Mica instead of Mica Alt on the command bar, set the mod's 'Translucent background effect' setting to 'Mica' and 'Translucent background effect region' to 'File Explorer frame only'.
 
 ## Theme selection
 

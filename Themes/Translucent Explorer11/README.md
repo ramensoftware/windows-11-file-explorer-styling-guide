@@ -6,10 +6,7 @@ A theme that modifies the WinUI elements of Windows 11 File Explorer to a transp
 
 ![Screenshot](screenshot.png)
 
-**To get translucent effects, you can use the Translucent Windows mod.**
-
-- Install the [Translucent Windows](https://windhawk.net/mods/translucent-windows) mod.
-- Select an effect type option and save.
+The theme uses Acrylic as the background material by default. It can be changed with the mod's 'Translucent background effect' setting.
 
 ## Theme selection
 

@@ -6,12 +6,9 @@ A theme that modifies the WinUI elements of Windows 11 File Explorer.
 
 ![Screenshot](screenshot.png)
 
-**To get translucent effects, you can use the Translucent Windows mod.**
+To get translucent effects, select an effect in the mod's 'Translucent background effect' setting.
 
-- Install the [Translucent Windows](https://windhawk.net/mods/translucent-windows) mod.
-- Select an effect type option and save.
-
-## Without the Translucent Windows mod
+## Without a translucent background effect
 ### Dark mode
 ![DefaultDark](DefaultDark.png)
 

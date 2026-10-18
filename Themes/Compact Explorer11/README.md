@@ -18,13 +18,10 @@ Unfortunately, this mod does not work appropriately with Light Mode. In Light Mo
 
 ## BlurBehind Requirements
 
-To achieve the translucent effect in Explorer shown in the preview, you will need an external background blur tool:
-
-* **Recommended:** The [Translucent Windows](https://windhawk.net/mods/translucent-windows) Windhawk mod (easiest to set up).
-* **Alternative:** The third-party utility `ExplorerBlurMica`.
+To achieve the translucent effect in Explorer shown in the preview, set the mod's 'Translucent background effect' setting to 'Blur (AccentBlurBehind)'.
 
 ### Custom AccentBlurBehind Tinting
-If the translucent background makes text hard to read on light backgrounds, you can add a custom AccentBlurBehind code in the settings page of the Translucent Windows Mod!
+If the translucent background makes text hard to read on light backgrounds, you can use the [Translucent Windows](https://windhawk.net/mods/translucent-windows) mod instead and add a custom AccentBlurBehind code in its settings page. In this case, set the 'Translucent background effect' setting to 'Windows default'.
 Here is a preview of the codes that can be used:
 
 * **Tint Code 1:** `761E1E1E`

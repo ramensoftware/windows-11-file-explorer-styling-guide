@@ -2,23 +2,18 @@
 
 **Author**: [PhantomNimbi](https://github.com/PhantomNimbi)
 
----
-
-### Requirements
-
-* [Windows 11 File Explorer Styler](https://windhawk.net/mods/windows-11-file-explorer-styler)
-* [Translucent Windows](https://windhawk.net/mods/translucent-windows)
-
----
-
 > [!NOTE]
-> Support for the LiquidGlas themes is being dropped in favor of a new Fluid Glass theme being released by another author. Their theme is going in the direction this one was aimed and does a lot better than this one does. So, there won't be any future updates to the LiquidGlass themes going forward and they will eventually be removed.
+> Support for the LiquidGlass themes is being dropped in favor of a new Fluid Glass theme being released by another author. Their theme is going in the direction this one was aimed and does a lot better than this one does. So, there won't be any future updates to the LiquidGlass themes going forward and they will eventually be removed.
 
 ![Screenshot](screenshot.png)
 
 ---
 
-## Translucent Windows
+## Translucent effect
+
+To get the translucent effect shown in the screenshot, set the mod's 'Translucent background effect' setting to 'Blur (AccentBlurBehind)'.
+
+For a custom tint, you can use the [Translucent Windows](https://windhawk.net/mods/translucent-windows) mod with the settings below instead. In this case, set the 'Translucent background effect' setting to 'Windows default'.
 
 > [!NOTE]
 > Make sure to change the "AccentBlurBehind color blend" setting to "cccccccc" if you are using this with Light themes.

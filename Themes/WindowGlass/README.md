@@ -9,15 +9,15 @@ A theme that gives Windows 11 File Explorer a modern, glassy aesthetic with a co
 ## Notes
 - This theme works best on Windows 11 **22H2** and later.
 - This theme currently works on displays with a resolution **above** 1366x768.
-- The background material of Windows Explorer windows will depend on what material is selected. To choose between background materials, you can use the 'Translucent Windows' mod.
+- The theme uses Acrylic as the background material by default. It can be changed with the mod's 'Translucent background effect' setting.
 - This theme will only work on / can only style the WinUI parts of File Explorer.
 
-## Full window preview with 'Blur (accent blur behind)' as the background material.
+## Full window preview with 'Blur (AccentBlurBehind)' as the background material.
 ![Full File Explorer window preview](Explorer_Full.png) 
-- Other background materials can be found in the 'Translucent Windows' mod, including:
+- Other background materials available in the 'Translucent background effect' setting:
+  - Acrylic (default)
   - Mica
   - Mica Alt
-  - Acrylic
 
 ## More details about this theme
 - Designed for Windows 11 24H2.

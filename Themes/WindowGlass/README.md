@@ -54,6 +54,7 @@ The theme styles can also be imported manually. To do that, follow these steps:
 backgroundTranslucentEffect: acrylic
 styleConstants:
   - Background=<WindhawkBlur BlurAmount="15" TintColor="#15323232"/>
+  - AcrylicBackground=<AcrylicBrush TintColor="{ThemeResource SystemChromeMediumLowColor}" TintOpacity="0.9" Opacity="0.96"/>
   - BorderBrush=<LinearGradientBrush StartPoint="0,0" EndPoint="0,1"><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="0.0" /><GradientStop Color="{ThemeResource SystemChromeLowColor}" Offset="0.15" /><GradientStop Color="{ThemeResource SystemChromeHighColor}" Offset="0.95" /></LinearGradientBrush>
   - BorderThickness=0.3,1,0.3,0.3
   - ButtonBackground=<SolidColorBrush Color="{ThemeResource SystemAccentColor}" Opacity="1" />
@@ -131,7 +132,7 @@ controlStyles:
       - Background:=$MainContentBG
   - target: ToolTip
     styles:
-      - Background:=<AcrylicBrush TintColor="#15323232" Opacity="0.96"/>
+      - Background:=$AcrylicBackground
   - target: Grid#TabContainerGrid > Border#LeftBottomBorderLine
     styles:
       - Visibility=Collapsed
@@ -199,7 +200,7 @@ controlStyles:
       - CornerRadius=$CornerRadius
   - target: Grid#SecondaryItemsControlShadowWrapper > CommandBarOverflowPresenter#SecondaryItemsControl > Grid#LayoutRoot
     styles:
-      - Background:=<AcrylicBrush TintColor="#15323232" Opacity="0.96"/>
+      - Background:=$AcrylicBackground
       - BorderThickness=$BorderThickness
       - BorderBrush:=$BorderBrush
       - CornerRadius=$CornerRadius

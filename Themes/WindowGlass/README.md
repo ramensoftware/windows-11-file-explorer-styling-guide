@@ -197,7 +197,7 @@ controlStyles:
       - BorderThickness=$BorderThickness
       - BorderBrush:=$BorderBrush
       - CornerRadius=$CornerRadius
-  - target: CommandBarOverflowPresenter#SecondaryItemsControl > Grid#LayoutRoot
+  - target: Grid#SecondaryItemsControlShadowWrapper > CommandBarOverflowPresenter#SecondaryItemsControl > Grid#LayoutRoot
     styles:
       - Background:=<AcrylicBrush TintColor="#15323232" Opacity="0.96"/>
       - BorderThickness=$BorderThickness

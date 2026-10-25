@@ -184,7 +184,13 @@ controlStyles:
       - Background:=$Background
       - BorderThickness=$BorderThickness
       - BorderBrush:=$BorderBrush
-      - Margin=0,0,0,-5
+      - CornerRadius=$CornerRadius
+  - target: Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBar > Grid#LayoutRoot@ExpansionStates > Grid#OuterContentRoot > Grid#ContentRoot > Microsoft.UI.Xaml.Controls.Primitives.Popup#OverflowPopup
+    styles:
+      - VerticalOffset@ExpandedUp=-5
+      - VerticalOffset@ExpandedDown=5
+  - target: Grid#OuterOverflowContentRootV2
+    styles:
       - CornerRadius=$CornerRadius
   - target: Grid#OuterOverflowContentRootV2 > Grid#OverflowContentRoot > CommandBarOverflowPresenter#SecondaryItemsControl > Grid#LayoutRoot
     styles:
@@ -226,7 +232,7 @@ controlStyles:
   - target: Microsoft.UI.Xaml.Controls.Border > Microsoft.UI.Xaml.Controls.Button#AddButton
     styles:
       - RenderTransform:=<TranslateTransform Y="-6" />
-  - target: Microsoft.UI.Xaml.Controls.TextBlock#TextLabel
+  - target: Microsoft.UI.Xaml.Controls.CommandBar > * > Microsoft.UI.Xaml.Controls.TextBlock#TextLabel
     styles:
       - Visibility=Collapsed
   - target: Microsoft.UI.Xaml.Controls.Grid#SubItemChevronPanel > Microsoft.UI.Xaml.Controls.FontIcon#SubItemChevron

@@ -19,9 +19,9 @@
   * [Navigation bar background](#navigation-bar-background)
 * [Command Bar](#command-bar)
   * [Command bar background](#command-bar-background)
-* [Details view](#details-view)
-  * [Details view background](#details-view-background)
-  * [Details view thumbnail background](#details-view-thumbnail-background)
+* [Details pane](#details-pane)
+  * [Details pane background](#details-pane-background)
+  * [Details pane thumbnail background](#details-pane-thumbnail-background)
 * [Home Page](#home-page)
    * [Home page background](#home-page-background)
 * [Gallery Page](#gallery-page)
@@ -208,9 +208,16 @@ Style:
 Background=Transparent
 ```
 
-## Details view
+## Details pane
 
-### Details view background
+The pane that shows information about the selected item. It can be toggled with
+the "Details" button in the command bar or with Alt+Shift+P.
+
+> [!NOTE]
+> The file list itself (in any layout, including "Details") isn't built with
+> XAML, so its background can't be changed with this mod.
+
+### Details pane background
 
 Target:
 ```
@@ -221,11 +228,11 @@ Style:
 Background=#FFFF00
 ```
 
-### Details view thumbnail background
+### Details pane thumbnail background
 
 Target:
 ```
-StackPanel#DetailsViewThumbnail
+StackPanel#DetailsViewThumbnail > Grid
 ```
 Style:
 ```

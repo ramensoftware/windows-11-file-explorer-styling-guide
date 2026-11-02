@@ -143,12 +143,14 @@ controlStyles:
       - CornerRadius=$ElementCornerRadius
       - BorderThickness=$ElementBorderThickness
       - Margin=4,0
+      - Background:=Transparent
   - target: FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid
     styles:
       - BorderBrush:=$ElementBorderBrush
       - CornerRadius=$ElementCornerRadius
       - BorderThickness=$ElementBorderThickness
       - Margin=4,0
+      - Background:=Transparent
   - target: FileExplorerExtensions.GalleryViewControl#GalleryViewControl > Grid > Grid#GalleryRootGrid
     styles:
       - Background:=Transparent

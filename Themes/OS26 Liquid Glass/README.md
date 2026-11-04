@@ -13,7 +13,7 @@ The standard layout for the sleek, premium OS26 inspired Liquid Glass aesthetic.
 
 ### Explorer Previews:
 
-![preview-1](screenshot-default.png)
+![preview-1](screenshot.png)
 
 ![preview-2](screenshot-2-default.png)
 

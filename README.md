@@ -4,21 +4,36 @@
 
 * [Introduction](#introduction)
   * [Finding targets](#finding-targets)
+  * [What can't be styled](#what-cant-be-styled)
   * [Missing customizations](#missing-customizations)
   * [Contributing](#contributing)
 * [Themes](#themes)
 * [Explorer frame container height](#explorer-frame-container-height)
+* [Translucent background effect](#translucent-background-effect)
+* [Rows](#rows)
+  * [Swap the navigation bar and the command bar](#swap-the-navigation-bar-and-the-command-bar)
 * [Tab](#tab)
-  * [Tab text color](#tab-text-color)
-  * [Tab background](#tab-background)
-  * [Remove tab](#remove-tab)
-  * [Remove tab close button](#remove-tab-close-button)
-  * [Remove tab add button](#remove-tab-add-button)
-  * [Remove tab icon](#remove-tab-icon)
+  * [Tab text font and color](#tab-text-font-and-color)
+  * [Selected tab background](#selected-tab-background)
+  * [Tab shape and state colors](#tab-shape-and-state-colors)
+  * [Tab size and spacing](#tab-size-and-spacing)
+  * [Hide the line under the tabs](#hide-the-line-under-the-tabs)
+  * [Hide tab parts](#hide-tab-parts)
+  * [Remove the tab strip](#remove-the-tab-strip)
 * [Navigation Bar](#navigation-bar)
   * [Navigation bar background](#navigation-bar-background)
+  * [Hide navigation buttons](#hide-navigation-buttons)
+  * [Address bar background and corners](#address-bar-background-and-corners)
+  * [Search box background and corners](#search-box-background-and-corners)
+  * [Address bar and search box height](#address-bar-and-search-box-height)
+  * [Hide the search box](#hide-the-search-box)
 * [Command Bar](#command-bar)
   * [Command bar background](#command-bar-background)
+  * [Button colors](#button-colors)
+  * [Hide command bar separators](#hide-command-bar-separators)
+  * [Hide the Details button](#hide-the-details-button)
+  * [Hide specific command bar buttons](#hide-specific-command-bar-buttons)
+  * [Remove the command bar](#remove-the-command-bar)
 * [Details pane](#details-pane)
   * [Details pane background](#details-pane-background)
   * [Details pane thumbnail background](#details-pane-thumbnail-background)
@@ -26,8 +41,12 @@
    * [Home page background](#home-page-background)
 * [Gallery Page](#gallery-page)
    * [Gallery page background](#gallery-page-background)
-* [Desktop context menu](#desktop-context-menu)
-   * [Desktop context menu border](#desktop-context-menu-border)
+* [Context menus and tooltips](#context-menus-and-tooltips)
+   * [Context menu background and border](#context-menu-background-and-border)
+   * [Context menu icon row](#context-menu-icon-row)
+   * [Other menus](#other-menus)
+   * [Tooltips](#tooltips)
+* [Visual states](#visual-states)
 * [Transforms](#transforms)
   * [Translate](#translate)
   * [Rotate](#rotate)
@@ -73,6 +92,19 @@ guide](https://github.com/ramensoftware/windows-11-notification-center-styling-g
 
 [How to find targets using UWPSpy](https://github.com/bbmaster123/FWFU/blob/main/Guides/uwpspy.md).
 
+### What can't be styled
+
+The mod can only style the parts of the window that are built with XAML: the
+tabs, the navigation bar, the command bar, the details pane, the Home and
+Gallery pages, and some of the menus and tooltips.
+
+The file list (in any layout, including "Details"), the sidebar and the status
+bar aren't built with XAML, so the mod can't change their colors, fonts, text
+size or row spacing. The one exception is the [translucent background
+effect](#translucent-background-effect), which can cover the entire window. For
+the sidebar, check out the [Explorer TreeItem
+Tweaker](https://windhawk.net/mods/explorer-treeitem-tweaker) mod.
+
 ### Missing customizations
 
 If you're looking for a customization that is not listed here, please [open an
@@ -112,20 +144,76 @@ The height of the explorer frame container, which includes the tabs, the address
 bar, and the command bar; set it to zero to use the default height. The height
 can be adjusted in the mod settings.
 
+Lower the height after removing or merging rows so that no empty space is left
+behind.
+
+## Translucent background effect
+
+The "Translucent background effect" mod setting applies an effect to the File
+Explorer window background: Blur (AccentBlurBehind), Acrylic, Mica or Mica Alt.
+The "Translucent background effect region" setting chooses whether the effect
+covers the entire window or only the File Explorer frame.
+
+Elements with their own background hide the effect, so make them transparent
+too, for example the [navigation bar](#navigation-bar-background), the [command
+bar](#command-bar-background), the [details pane](#details-pane-background), the
+[Home page](#home-page-background) and the [Gallery
+page](#gallery-page-background). The [Translucent
+Explorer11](Themes/Translucent%20Explorer11/README.md) theme is a good starting
+point.
+
+The mod's effects don't apply to windows with the legacy frame. For those windows,
+or for additional effects, set this option to "Windows default" and use the
+[Translucent Windows](https://windhawk.net/mods/translucent-windows) mod.
+
+## Rows
+
+The top of the window is a grid with three rows: the tabs (`Grid.Row=0`), the
+navigation bar (`Grid.Row=1`) and the command bar (`Grid.Row=2`). Setting
+`Grid.Row` or `Grid.RowSpan` on these controls moves them between rows.
+
+To fit the tabs and the navigation bar into one row, see the [Minimal
+Explorer11](Themes/Minimal%20Explorer11/README.md) theme.
+
+### Swap the navigation bar and the command bar
+
+Target:
+```
+FileExplorerExtensions.NavigationBarControl
+```
+Style:
+```
+Grid.Row=2
+```
+
+Target:
+```
+FileExplorerExtensions.CommandBarControl_Wave1, FileExplorerExtensions.CommandBarControl
+```
+Style:
+```
+Grid.Row=1
+```
+
 ## Tab
 
-### Tab text color
+### Tab text font and color
 
 Target:
 ```
 Grid#TabContainer > ContentPresenter > StackPanel > TextBlock
 ```
-Style:
+Styles:
 ```
 Foreground=Magenta
+FontFamily=Segoe UI
+FontWeight=Normal
 ```
 
-### Tab background
+### Selected tab background
+
+To style the other tabs too, see [Tab shape and state
+colors](#tab-shape-and-state-colors).
 
 Target:
 ```
@@ -136,49 +224,139 @@ Style:
 Fill=#00FFFF
 ```
 
-### Remove tab
+### Tab shape and state colors
+
+Replaces the default tab shape with a rounded rectangle that has a background
+for each [visual state](#visual-states).
+
+Target:
+```
+TabViewItem > Grid#LayoutRoot > Canvas
+```
+Style:
+```
+Visibility=Collapsed
+```
+
+Target:
+```
+TabViewItem > Grid#LayoutRoot > Grid#TabContainer
+```
+Styles:
+```
+Background=Transparent
+BorderThickness=0
+```
 
 Target:
 ```
 TabViewItem > Grid#LayoutRoot
 ```
+Styles:
+```
+CornerRadius=5
+Margin=2,4,0,4
+Height=29
+```
+
+Target:
+```
+TabViewItem > Grid#LayoutRoot@CommonStates
+```
+Styles:
+```
+Background@Normal:=<SolidColorBrush Color="#808080" Opacity="0.05"/>
+Background@PointerOver:=<SolidColorBrush Color="#808080" Opacity="0.15"/>
+Background@Selected:=<SolidColorBrush Color="#808080" Opacity="0.35"/>
+Background@PointerOverSelected:=<SolidColorBrush Color="#808080" Opacity="0.35"/>
+Background@PressedSelected:=<SolidColorBrush Color="#808080" Opacity="0.35"/>
+```
+
+If curved corners remain next to the selected tab, hide them too.
+
+Target:
+```
+Microsoft.UI.Xaml.Shapes.Path#LeftRadiusRenderArc, Microsoft.UI.Xaml.Shapes.Path#RightRadiusRenderArc
+```
 Style:
 ```
 Visibility=Collapsed
 ```
 
-### Remove tab close button
+### Tab size and spacing
 
 Target:
 ```
-Button#CloseButton
+TabViewItem
+```
+Styles:
+```
+Width=150
+Margin=0,0,8,0
+```
+
+### Hide the line under the tabs
+
+Target:
+```
+Border#BottomBorderLine, Border#LeftBottomBorderLine, Border#RightBottomBorderLine
 ```
 Style:
 ```
 Visibility=Collapsed
 ```
 
-### Remove tab add button
+### Hide tab parts
 
-Target:
-```
-Button#AddButton
-```
-Style:
-```
-Visibility=Collapsed
-```
+Use the target for each part you want to hide.
 
-### Remove tab icon
-
-Target:
+Close button:
+```
+Grid#TabContainer > Button#CloseButton
+```
+Icon:
 ```
 Grid#TabContainer > Viewbox#IconBox
 ```
+Add button:
+```
+Grid#TabContainerGrid > Border > Button#AddButton
+```
 Style:
 ```
 Visibility=Collapsed
 ```
+
+### Remove the tab strip
+
+Removes the whole row, including the add button. The minimize, maximize and
+close buttons stay in place, so the navigation bar needs a top margin to clear
+them.
+
+Target:
+```
+FileExplorerExtensions.FileExplorerTabControl
+```
+Style:
+```
+Visibility=Collapsed
+```
+
+Target:
+```
+FileExplorerExtensions.NavigationBarControl
+```
+Styles:
+```
+Grid.Row=0
+MinHeight=48
+Margin=0,26,0,1
+```
+
+Then set the [Explorer frame container
+height](#explorer-frame-container-height) to about 123. The
+[AddressSearchOnly](Themes/AddressSearchOnly/README.md) theme uses 80, which
+also crops the command bar out of view.
 
 ## Navigation Bar
 
@@ -190,7 +368,100 @@ Grid#NavigationBarControlGrid
 ```
 Style:
 ```
-Background:=<SolidColorBrush Color="Grey" TintOpacity="0.4"/>
+Background:=<SolidColorBrush Color="Gray" Opacity="0.4"/>
+```
+
+### Hide navigation buttons
+
+Use the target for each button you want to hide. The stop button takes the place
+of the refresh button while a folder is loading, so hide both.
+
+Targets:
+```
+AppBarButton#backButton
+
+AppBarButton#forwardButton
+
+AppBarButton#upButton
+
+AppBarButton#refreshButton
+
+AppBarButton#stopButton
+```
+Style:
+```
+Visibility=Collapsed
+```
+
+### Address bar background and corners
+
+Target:
+```
+FileExplorerExtensions.AddressBarControl > Grid#PART_LayoutRoot
+```
+Styles:
+```
+Background=#FFFF00
+CornerRadius=6
+```
+
+The address bar turns into a text box when clicked. To round its corners too:
+
+Target:
+```
+AutoSuggestBox#PART_AutoSuggestBox > Grid#LayoutRoot > TextBox#TextBox
+```
+Style:
+```
+CornerRadius=6
+```
+
+### Search box background and corners
+
+Target:
+```
+AutoSuggestBox#FileExplorerSearchBox > Grid#LayoutRoot > TextBox > Grid@CommonStates > Border#BorderElement
+```
+Styles:
+```
+Background=#FFFF00
+CornerRadius=6
+BorderThickness=0
+```
+
+### Address bar and search box height
+
+Targets:
+```
+Grid#FileExplorerAddressBarGrid
+
+AutoSuggestBox#FileExplorerSearchBox
+```
+Style:
+```
+Height=28
+```
+
+### Hide the search box
+
+Target:
+```
+AutoSuggestBox#FileExplorerSearchBox
+```
+Style:
+```
+Visibility=Collapsed
+```
+
+To let the address bar fill the free space:
+
+Target:
+```
+Grid#FileExplorerAddressBarGrid
+```
+Style:
+```
+Grid.ColumnSpan=2
 ```
 
 ## Command Bar
@@ -208,14 +479,101 @@ Style:
 Background=Transparent
 ```
 
+### Button colors
+
+Applies to the buttons of both the command bar and the navigation bar. To style
+a single button, add its name, for example `AppBarButton#backButton`. See
+[Visual states](#visual-states) for more about the states.
+
+Target:
+```
+AppBarButton > Grid#Root@CommonStates > Border#AppBarButtonInnerBorder
+```
+Styles:
+```
+Background@PointerOver:=<SolidColorBrush Color="#808080" Opacity="0.15"/>
+Background@Pressed:=<SolidColorBrush Color="#808080" Opacity="0.25"/>
+```
+
+### Hide command bar separators
+
+Target:
+```
+AppBarSeparator
+```
+Style:
+```
+Visibility=Collapsed
+```
+
+### Hide the Details button
+
+Hides the right end of the command bar, which holds the Details button.
+
+Target:
+```
+CommandBar#FileExplorerSecondaryCommandBar
+```
+Style:
+```
+Visibility=Collapsed
+```
+
+### Hide specific command bar buttons
+
+Most command bar buttons have no name, so they're matched by their tooltip.
+Tooltips depend on the Windows language, and these examples are for English:
+`Cut`, `Copy`, `Paste`, `Rename`, `Share`, `Delete`.
+
+Target:
+```
+AppBarButton[ToolTipService.ToolTip = Cut]
+```
+Style:
+```
+Visibility=Collapsed
+```
+
+The Sort button has a name, so it can be matched in any language with
+`AppBarButton#SortAndGroupButton`.
+
+A button can also be matched by its position, which works in any language but
+can break when a Windows update changes the buttons. For example, Cut is the
+third child, counting separators:
+```
+CommandBar#FileExplorerCommandBar > * > AppBarButton[3]
+```
+
+### Remove the command bar
+
+Target:
+```
+FileExplorerExtensions.CommandBarControl_Wave1, FileExplorerExtensions.CommandBarControl
+```
+Style:
+```
+Visibility=Collapsed
+```
+
+Target:
+```
+FileExplorerExtensions.NavigationBarControl
+```
+Styles:
+```
+Grid.RowSpan=2
+Margin=0,0,0,1
+```
+
+Then set the [Explorer frame container
+height](#explorer-frame-container-height) to 87.
+
 ## Details pane
 
 The pane that shows information about the selected item. It can be toggled with
-the "Details" button in the command bar or with Alt+Shift+P.
-
-> [!NOTE]
-> The file list itself (in any layout, including "Details") isn't built with
-> XAML, so its background can't be changed with this mod.
+the "Details" button in the command bar or with Alt+Shift+P. It's different from
+the "Details" layout of the file list, which [can't be
+styled](#what-cant-be-styled).
 
 ### Details pane background
 
@@ -252,7 +610,7 @@ Style:
 Background=#FFFF00
 ```
 
-## Gallery page
+## Gallery Page
 
 ### Gallery page background
 
@@ -267,18 +625,106 @@ Style:
 Background=Transparent
 ```
 
-## Desktop context menu
+## Context menus and tooltips
 
-### Desktop context menu border
+### Context menu background and border
+
+Applies to the right-click menu and to the command bar's "See more" menu.
 
 Target:
 ```
-CommandBarOverflowPresenter#SecondaryItemsControl > Grid#LayoutRoot > Border
+CommandBarOverflowPresenter#SecondaryItemsControl > Grid#LayoutRoot
+```
+Styles:
+```
+Background=#FFFF00
+BorderBrush=#00FFFF
+BorderThickness=1
+CornerRadius=8
+```
+
+When changing the corner radius, also target `Grid#OuterOverflowContentRootV2`
+with the same `CornerRadius`.
+
+> [!NOTE]
+> Windows doesn't support translucent effects for these menus, so use an opaque
+> color. The [WindowGlass](Themes/WindowGlass/README.md) theme uses a nearly
+> opaque `AcrylicBrush` for a similar look.
+
+### Context menu icon row
+
+The row of icons at the top of the right-click menu.
+
+Target:
+```
+Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBar > Grid#LayoutRoot > Grid#OuterContentRoot > Grid#ContentRoot > Grid#PrimaryItemsRoot
+```
+Styles:
+```
+Background=#FFFF00
+BorderBrush=#00FFFF
+BorderThickness=1
+CornerRadius=8
+```
+
+### Other menus
+
+Some other menus use a different control.
+
+Target:
+```
+MenuFlyoutPresenter > Border
+```
+Styles:
+```
+Background=#FFFF00
+BorderBrush=#00FFFF
+BorderThickness=1
+CornerRadius=8
+```
+
+### Tooltips
+
+Target:
+```
+ToolTip
+```
+Styles:
+```
+Background=#FFFF00
+BorderBrush=#00FFFF
+BorderThickness=1
+CornerRadius=8
+```
+
+## Visual states
+
+Some elements change their look depending on their state, for example when
+hovered or pressed. To set a style for a specific state, add the visual state
+group name to the target with `@`, and the state name to the style with `@`.
+
+For example, to change the color of a tab when hovered, target:
+```
+TabViewItem > Grid#LayoutRoot@CommonStates
 ```
 Style:
 ```
-BorderBrush=#00FFFF
+Background@PointerOver:=<SolidColorBrush Color="#808080" Opacity="0.15"/>
 ```
+
+A style without a state applies to every state of the group that doesn't have
+its own value for that property.
+
+The most common group is `CommonStates`. Its states depend on the element:
+
+| Element | Target | States
+| ------- | ------ | ------
+| Tabs | `TabViewItem > Grid#LayoutRoot@CommonStates` | `Normal`, `PointerOver`, `Pressed`, `Selected`, `PointerOverSelected`, `PressedSelected`
+| Buttons | `AppBarButton > Grid#Root@CommonStates` | `Normal`, `PointerOver`, `Pressed`, `Disabled`
+| Text boxes | `TextBox > Grid@CommonStates` | `Normal`, `PointerOver`, `Focused`, `Disabled`
+
+See [Finding targets](#finding-targets) on how to use UWPSpy to find all of the
+available visual states for an element.
 
 ## Transforms
 
@@ -465,7 +911,7 @@ _These examples set a blur that is tinted with red at 50% opacity. Both versions
 #### ThemeResource color
 
 ```
-<WindhawkBlur BlurAmount="10" TintColor="{ThemeResource SystemAccentColor}" TintOpacity="0.5"/>
+Fill:=<WindhawkBlur BlurAmount="10" TintColor="{ThemeResource SystemAccentColor}" TintOpacity="0.5"/>
 ```
 
 - `TintColor`: ThemeResource color, such as `SystemAccentColor`.
@@ -474,7 +920,7 @@ _These examples set a blur that is tinted with red at 50% opacity. Both versions
 ### Mica effect as color
 
 > [!NOTE]
-> Unfortunately, it is not possible to set a Mica effect at this time with any of Windhawk's styler mods.
+> Unfortunately, it is not possible to set a Mica effect at this time with any of Windhawk's styler mods. To apply Mica to the window background instead, use the [translucent background effect](#translucent-background-effect) setting.
 
 ### Gradient as color
 
